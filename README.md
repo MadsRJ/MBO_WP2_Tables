@@ -59,16 +59,31 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |--------|------------|-------------|------|------------|------------|------------|----------------------|-----|
 |`BOLD`|||||||||
 |`CRABS_NordicRefDBs`|||||||||
+|`DDBJ`|||||||||
 |`EMBL`|||||||||
+|`ENSEMBL`|||||||||
+|`FlyBase`|||||||||
+|`GOLD`|||||||||
 |`GreenGenes`|||||||||
-|`MIDORI`|||||||||
+|`GTDB`|||||||||
+|`HMP`|||||||||
+|`IMG`|||||||||
+|`KEGG`|||||||||
+|`MetaPhlAn`|||||||||
+|`MIDORI2`|||||||||
 |`NCBI nr`|||||||||
 |`NCBI nt`|||||||||
 |`NCBI RefSeq`|||||||||
+|`PDB`|||||||||
+|`Pfam`|||||||||
+|`Phytozome`|||||||||
 |`PR2`|||||||||
+|`RDP`|||||||||
 |`Silva`|||||||||
+|`TARA Oceans`|||||||||
 |`UNITE`|Fungi|https://unite.ut.ee/|ITS|Limited to fungal taxa|Specialized for fungal ITS sequences|YYYY-MM-DD - **CHECK**|Open|Fungal taxa|
-|`+++++`|||||||||
+|`WormBase`|||||||||
+|`ZFIN`|||||||||
 
 ### Table 3: An alphabetically ordered, incomplete overview of existing metabarcoding pipelines
 |Pipeline|Primary software used|Language|Clustering|Link|Notes|
