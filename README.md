@@ -119,9 +119,57 @@ This repository was created under the framework of the EU-project [MARCO-BOLO](h
 ![Fig2](figures_readme/MARCO-BOLO_logo_col.png)
 
 ## References 
+Amaral-Zettler et al. (2009)
+
+Baker et al. (2003)
+
+Balzano et al. (2015)
+
+Banos et al. (2018)
+
+Bienert et al. (2012)
+
+Caporaso et al. (2010)
+
+Elbrecht & Leese (2017)
+
+Epp et al. (2012)
+
+Hardy et al. (2010)
+
+Fliegerova et al. (2014)
+
 Geller, J., Meyer, C., Parker, M., & Hawk, H. (2013). Redesign of PCR primers for mitochondrial cytochrome c oxidase subunit I for marine invertebrates and application in all-taxa biotic surveys. Molecular Ecology Resources 13(5), 851-861. https://doi.org/10.1111/1755-0998.12138.
 
+Giguet-Covex et al. (2014)
+
+Guardiola et al. (2015)
+
+Janssen et al. (2017)
+
 Leray, M., Yang, J. Y., Meyer, C. P., Mills, S. C., Agudelo, N., Ranwez, V., Boehm, J. T., & Machida, R. J. (2013). A new versatile primer set targeting a short fragment of the mitochondrial COI region for metabarcoding metazoan diversity: application for characterizing coral reef fish gut contents. Frontiers in Zoology 10, 34. https://doi.org/10.1186/1742-9994-10-34.
+
+Miya et al. (2015)
+
+Quince et al. (2011)
+
+Riaz et al. (2011)
+
+Sales et al. (2019)
+
+Schneider et al. (2016)
+
+Stoeck et al. (2010)
+
+Taberlet et al. (2007)
+
+Taberlet et al. (2018)
+
+Thomsen et al. (2016)
+
+Valentini et al. (2016)
+
+Valsecchi et al. (2020)
 
 Wangensteen, O. S., Palacín, C., Guardiola, M., & Turon, X. (2018). DNA metabarcoding of littoral hard-bottom communities: high diversity and database gaps revealed by two molecular markers. PeerJ 6, e4705. https://doi.org/10.7717/peerj.4705.
 
