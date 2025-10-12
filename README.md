@@ -7,7 +7,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |-----------|------------|--------------------------------------|--------------------------------------|------|------------|------------------|------------|-----|
 |`18S_allshorts`|**F:** 18S_allshorts forward <br> **R:** 18S_allshorts reverse|TTTGTCTGSTTAATTSCG <br> GCSTTAATTSGTCTGTTT|TCACAGACCTGTTATTGC <br> CGTTATTGTCCAGACACT|18S (V7)|Eukaryotes|~110|Guardiola et al. (2015)|Highly specific for eukaryotes. Amplifies same region as Hardy et al. (2010), with almost same resolution for 40 bp less.|
 |`18S_allshorts (mod. "Euka02")`|**F:** 18S_allshorts forward <br> **R:** 18S_allshorts reverse (mod.)|TTTGTCTGSTTAATTSCG <br> GCSTTAATTSGTCTGTTT|CACAGACCTGTTATTGC <br> CGTTATTGTCCAGACAC|18S (V7)|Eukaryotes|~110|Guardiola et al. (2015), Taberlet et al. (2018)|First "T" omitted compared to original reverse primer to better equilibrate the melting temperatures of the two primers.|
-|`Aves01`|||||||||
+|`Aves01` **CHECK**|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|GATTAGATACCCCACTATGC <br> CGTATCACCCCATAGATTAG|GTTTTAAGCGTTTGTGCTCG <br> GCTCGTGTTTGCGAATTTTG|12S|Aves (birds)|~52|Epp et al. (2012)|Limited taxonomic resolution, but highly specific to birds.|
 |`Arch01`|**F:** Arch01-F <br> **R:** Arch01-R|CCTGCTCCTTGCACACAC <br> CACACACGTTCCTCGTCC|CCTACGGCTACCTTGTTAC <br> CATTGTTCCATCGGCATCC|16S (V9)|Archaea|~85|Taberlet et al. (2018)|Highly specific of Archaea.|
 |`Baci01`|**F:** Baci01-F <br> **R:** Baci01-R|ATTCCAGCTCCAATAGCGTA <br> ATGCGATAACCTCGACCTTA|CTTTRAACRCLCTRATTTYTTCAC <br> CACTTYTTTARTCLCRCAARTTTC|18S (V4)|Bacillariophyta (diatoms)|~150|Taberlet et al. (2018)|Will also amplify other eukaryotes.|
 |`Bact02`|**F:** Bact02-F <br> **R:** Bact02-R|GCCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACCG|GGACTACCMGGGTATCTAA <br> AATCTATGGGMCCATCAGG|16S (V4)|Bacteria+Archaea|~254|Taberlet et al. (2018)||
@@ -16,15 +16,15 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`BACTB`|**F:** BACTB-F <br> **R:** BACTB-R|GGATTAGATACCCTGGTAGT <br> TGATGGTCCCATAGATTAGG|CACGACACGAGCTGACG <br> GCAGTCGAGCACAGCAC|16S (V5-V6)|Bacteria|~258|Fliegerova et al. (2014)||
 |`Balzano`|**F:** TAReuk454FWD1 (V4F) <br> **R:** V4RB|CCAGCASCYGCGGTAATTCC <br> CCTTAATGGCGYCSACGACC|ACTTTCGTTCTTGATYRR <br> RRYTAGTTCTTGCTTTCA|18S (V4)|Eukaryotes|~380|Stoeck et al. (2010), Balzano et al. (2015)||
 |`Banos`|**F:** nu-SSU-1333-5′ (FF390) <br> **R:** nu-SSU-1647-3′ (FR-1)|CGATAACGAACGAGACCT <br> TCCAGAGCAAGCAATAGC|AICCATTCAATCGGTAIT <br> TIATGGCTAACTTACCIA|18S (V7-V8)|Fungi|~348|Banos et al. (2018)|Note that “I” (inosine) often gets replaced with “N” for bioinformatic software to recognize the wobble-base.|
-|`Batr01`|||||||||
-|`BF1/BR1`|||||||||
+|`Batr01`|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|ACACCGCCCGTCACCCT <br> TCCCACTGCCCGCCACA|GTAYACTTACCATGTTACGACTT <br> TTCAGCATTGTACCATTCAYATG|12S|Batrachia (frogs and salamanders)|~51|Valentini et al. (2016)||
+|`BF1/BR1`|**F:** BF1 <br> **R:** BR1|ACWGGWTGRACWGTNTAYCC <br> CCYATNTGWCARGTWGGWCA|ARYATDGTRATDGCHCCDGC <br> CGDCCHCGDTARTGDTAYRA|COI|Macroinvertebrates|217|Elbrecht & Leese (2017)|Designed for mock communities, so co-amplifies a lot of undesired taxa when applied to eDNA samples.|
 |`Bryo01`|**F:** dsa - **CHECK** <br> **R:**  Bryo01-R|GATTCAGGGAAACTTAGGTTG <br> GTTGGATTCAAAGGGACTTAG|CCATYGAGTCTCTGCACC <br> CCACGTCTCTGAGYTACC|trnL|Bryophyta|~53|Epp et al. (2012), Taberlet et al. (2018)|One degenerated bp in reverse primer compared to Epp et al. (2012).|
 |`Caporaso`|**F:** F515 <br> **R:** R806|GTGCCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACCGTG|GGACTACHVGGGTWTCTAAT <br> TAATCTWTGGGVHCATCAGG|16S|Bacteria|**CHECK** XX|Caporaso et al. (2010)||
-|`Cole01`|||||||||
-|`Coll01`|||||||||
-|`Culi01`|||||||||
+|`Cole01`|**F:** Cole01-F <br> **R:** Cole01-R|TGCWAAGGTAGCATAATMATTAG <br> GATTAMTAATACGATGGAAWCGT|TCTATAGGGTCTTCTCGTC <br> CTGCTCTTCTGGGATATCT|16S|Coleoptera (beetles)|~107|Taberlet et al. (2018)|Modified primers from Epp et al. (2012). Also amplifies other metazoans.|
+|`Coll01` **CHECK**|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|ACGCTGTTATCCCTWAGG <br> GGAWTCCCTATTGTCGCA|GACGATAAGACCCTWTAGA <br> AGATWTCCCAGAATAGCAG|16S|Collembola (springtails)|~132|Janssen et al. (2017)||
+|`Culi01` **CHECK**|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|ACGCTGTTATCCCTAAGGTAACTTA <br> ATTCAATGGAATCCCTATTGTCGCA|GACGAGAAGACCCTATAGATCTTTAT <br> TATTTCTAGATATCCCAGAAGAGCAG|16S|Culicidae (mosquitos)|~145|Schneider et al. (2016)||
 |`Cyan01`|**F:** Cyan01-F <br> **R:** Cyan01-R|CTYAAGCCGACATTCTCAC <br> CACTCTTACAGCCGAAYTC|GACAACYAGGAGGTTTGC <br> CGTTTGGAGGAYCAACAG|23S|Cyanobacteria|~180|Taberlet et al. (2018)||
-|`Elas02`|||||||||
+|`Elas02`|**F:** Elas02-F <br> **R:** Elas02-R|GTTGGTHAATCTCGTGCCAGC <br> CGACCGTGCTCTAAHTGGTTG|CATAGTAGGGTATCTAATCCTAGTTTG <br> GTTTGATCCTAATCTATGGGATGATAC|12S|Elasmobranchii|~182|Taberlet et al. (2018)||
 |`Ench01` **CHECK**|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|GCTGCACTTTGACTTGAC <br> CAGTTCAGTTTCACGTCG|AGCCTGTGTACTGCTGTC <br> CTGTCGTCATGTGTCCGA|12S|Enchytraeidae|~48|Epp et al. (2012)||
 |`Euka01` **CHECK**|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|TGGTGCATGGCCGTTCTTAGT <br> TGATTCTTGCCGGTACGTGGT|CATCTAAGGGCATCACAGACC <br> CCAGACACTACGGGAATCTAC|18S (V7)|Eukaryotes|~161|Hardy et al. (2010)|Highly specific of eukaryotes. Much longer fragment for certain insects, amphipods and isopods (Taberlet et al. 2018).|
 |`Euka03`|**F:** Euka03-F <br> **R:** Euka03-R|CCCTTTGTACACACCGCC <br> CCGCCACACATGTTTCCC|CTTCYGCAGGTTCACCTAC <br> CATCCACTTGGACGYCTTC|18S (V9)|Eukaryotes|~133|Taberlet et al. (2018)|18S V9 has less reference sequences than V7, but this marker should provide higher taxonomic resolution and has a more standardized fragment size (Taberlet et al. 2018).|
@@ -32,13 +32,13 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Fung01` **CHECK**|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|GGAAGTAAAAGTCGTAACAAGG <br> GGAACAATGCTGAAAATGAAGG|CCAAGAGATCCGTTGYTGAAAGT <br> TGAAAGTYGTTGCCTAGAGAACC|ITS1|Fungi|~226|Epp et al. (2012)|Does not properly amplify Glomeromycota. Highly variable fragment length for some fungi (Taberlet et al. 2018).|
 |`Fung02` **CHECK**|**F:** dsa - **CHECK** <br> **R:** Fung02-R|GGAAGTAAAAGTCGTAACAAGG <br> GGAACAATGCTGAAAATGAAGG|CAAGAGATCCGTTGYTGAAAGTK <br> KTGAAAGTYGTTGCCTAGAGAAC|ITS1|Fungi|~225|Epp et al. (2012), Taberlet et al. (2018)|Modified version of Epp et al (2012)’s reverse primer to properly amplify Glomeromycota. Highly variable fragment length for some fungi (Taberlet et al. 2018).|
 |`Inse01`|**F:** Inse01-F <br> **R:** Inse01-R|RGACGAGAAGACCCTATARA <br> ARATATCCCAGAAGAGCAGR|ACGCTGTTATCCCTAARGTA <br> ATGRAATCCCTATTGTCGCA|16S|Insecta|~155|Taberlet et al. (2018)|Close to the Clarke et al. (2014) primers.|
-|`Isop01`|||||||||
+|`Isop01`|**F:** Isop01-F <br> **R:** Isop01-R|ATTTCAGGTCAAGGTGCAGCTT <br> TTCGACGTGGAACTGGACTTTA|ATTACAACCAAATCCAATTTCA <br> ACTTTAACCTAAACCAACATTA|12S|Isoptera (termites)|~66|Taberlet et al. (2018)||
 |`Leray`|**F:** mlCOIintF <br> **R:** jgHCO2198|GGWACWGGWTGAACWGTWTAYCCYCC <br> CCYCCYATWTGWCAAGTWGGWCAWGG|TAIACYTCIGGRTGICCRAARAAYCA <br> ACYAARAARCCIGTRGGICTYCAIAT|COI|Metazoans|313|Leray et al. (2013), Geller et al. (2013)|Note that “I” (inosine) often gets replaced with “N” for bioinformatic software to recognize the wobble-base.|
 |`Leray-XT`|**F:** mlCOIintF-XT <br> **R:** jgHCO2198|GGWACWRGWTGRACWITITAYCCYCC <br> CCYCCYATITIWCARGTWGRWCAWGG|TAIACYTCIGGRTGICCRAARAAYCA <br> ACYAARAARCCIGTRGGICTYCAIAT|COI|Metazoans|313|Geller et al. (2013), Wangensteen et al. (2018)||
 |`Lumb01`|**F:** Lumb01-F <br> **R:** Lumb01-R|CAAGAAGACCCTATAGAGCTT <br> TTCGAGATATCCCAGAAGAAC|GGTCGCCCCAACCGAAT <br> TAAGCCAACCCCGCTGG|16S|Lumbricina (earthworms)|~31|Bienert et al. (2012)||
 |`Lumb02`|**F:** Lumb02-F <br> **R:** Lumb02-R|ATTCGGTTGGGGCGACC <br> CCAGCGGGGTTGGCTTA|CTGTTATCCCTAAGGTAGCTT <br> TTCGATGGAATCCCTATTGTC|16S|Lumbricina (earthworms)|~74|Bienert et al. (2012)||
-|`Mamm01`|||||||||
-|`Mamm02`|||||||||
+|`Mamm01`|**F:** Mamm01-F <br> **R:** Mamm01-R|CCGCCCGTCACCCTCCT <br> TCCTCCCACTGCCCGCC|GTAYRCTTACCWTGTTACGAC <br> CAGCATTGTWCCATTCRYATG|12S|Mammals|~58|Taberlet et al. (2018)||
+|`Mamm02`|**F:** Mamm02-F <br> **R:** dsa - **CHECK**|CGAGAAGACCCTRTGGAGCT <br> TCGAGGTRTCCCAGAAGAGC|CCGAGGTCRCCCCAACC <br> CCAACCCCRCTGGAGCC|16S|Mammals|~74|Taberlet et al. (2018), Giguet-Covex et al. (2014)|Forward primer slightly modified from Giguet-Covex et al. (2014). Also amplifies some other vertebrates.|
 |`MarVer1`|**F:** MmoMV1F <br> **R:** MarVer1R-ndC|CGTGCCAGCCACCGCG <br> GCGCCACCGACCGTGC|GGGTATCTAATCCYAGTTTG <br> GTTTGAYCCTAATCTATGGG|12S|Vertebrates|**CHECK** 202?|Valsecchi et al. (2020)||
 |`MarVer2`|**F:** MarVer2F-ndC <br> **R:** MmoMV2R|CCGCCCGTCACCCTC <br> CTCCCACTGCCCGCC|CTTATCTCCTCTTATATTTTTATACGTA <br> ATGCATATTTTTATATTCTCCTCTATTC|12S|Vertebrates|**CHECK** XXX|Valsecchi et al. (2020)||
 |`MarVer3`|**F:** MmoMV3F <br> **R:** MarVer3R|GCTTTAATTAATTAATCCAATAGAATAAAATTAACC <br> CCAATTAAAATAAGATAACCTAATTAATTAATTTCG|GGATTGCGCTGTTATCCC <br> CCCTATTGTCGCGTTAGG|16S|Vertebrates|**CHECK** 245?|Valsecchi et al. (2020)||
@@ -48,10 +48,10 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`MiFish-U (UiT mod.)`|**F:** MiFish-U-F (UiT mod.) <br> **R:** MiFish-U-R|GCCGGTAAAACTCGTGCCAGC <br> CGACCGTGCTCAAAATGGCCG|CATAGTGGGGTATCTAATCCCAGTTTG <br> GTTTGACCCTAATCTATGGGGTGATAC|12S|Fishes/vertebrates|163–185|Miya et al. (2015), Sales et al. (2019)|Note that the second base in the F primer has been replaced compared to the original.|
 |`Poly01`|**F:** Poly01-F <br> **R:** Poly01-R|CCGGTYTGAACTCAGMTCA <br> ACTMGACTCAAGTYTGGCC|TGGCACCTCGATGTTGGCT <br> TCGGTTGTAGCTCCACGGT|16S|Polychaetes|~63|Taberlet et al. (2018)||
 |`Riaz1`|**F:** F1 <br> **R:** R1|ACTGGGATTAGATACCCC <br> CCCCATAGATTAGGGTCA|TAGAACAGGCTCCTCTAG <br> GATCTCCTCGGACAAGAT|12S|Vertebrates|~106|Riaz et al. (2011)||
-|`Riaz2 (12S-V5)`|||||||||
+|`Riaz2 (12S-V5)`|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|dsa - **CHECK** <br> dsa - **CHECK**|dsa - **CHECK** <br> dsa - **CHECK**|12S|Vertebrates|~97|Riaz et al. (2011)||
 |`Sper01` **CHECK**|**F:** Sper01-F - **CHECK** <br> **R:** Sper01-R - **CHECK**|GGGCAATCCTGAGCCAA <br> AACCGAGTCCTAACGGG|CCATTGAGTCTCTGCACCTATC <br> CTATCCACGTCTCTGAGTTACC|trnL, P6 loop|Spermatophyta (seed plants)|~48|Taberlet et al. (2007)|Widely used for degraded material due to the short length.|
 |`Stoeck`|**F:** TAReuk454FWD1 (V4F) <br> **R:** TAReukREV3 (V4R)|CCAGCASCYGCGGTAATTCC <br> CCTTAATGGCGYCSACGACC|ACTTTCGTTCTTGATYRA <br> ARYTAGTTCTTGCTTTCA|18S (V4)|Eukaryotes|~380|Stoeck et al. (2010)||
-|`Tele01`|||||||||
+|`Tele01`|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|ACACCGCCCGTCACTCT <br> TCTCACTGCCCGCCACA|CTTCCGGTACACTTACCATG <br> GTACCATTCACATGGCCTTC|12S|Teleostei|~64|Valentini et al. (2016)|Poor resolution for Cyprinidae and Gadidae.|
 |`Tele02`|**F:** Tele02-F <br> **R:** Tele02-R|AAACTCGTGCCAGCCACC <br> CCACCGACCGTGCTCAAA|GTTTGACCCTAATCTATGGG <br> GGGTATCTAATCCCAGTTTG|12S|Fishes/vertebrates|129-209|Taberlet et al. (2018), Thomsen et al. (2016)|F-primer first described as "V05F_898" from Thomsen et al. (2016).|
 
 ### Table 2: An overview of frequently used reference databases
