@@ -3,72 +3,114 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 
 ### Table 1: An incomplete overview of empirically tested and/or frequently used metabarcoding primers and their target groups
 
-|Primer combination name|Individual&nbsp;primer names|F-primer (5′-3′) <br> F-primer (3′-5′)|R-primer (5′-3′) <br> R-primer (3′-5′)|Marker|Target group|Fragment size (bp)|Reference(s)|Random&nbsp;usage&nbsp;notes|
+|Primer&nbsp;combination&nbsp;name|Individual&nbsp;primer&nbsp;names|F-primer (5′-3′) <br> F-primer (3′-5′)|R-primer (5′-3′) <br> R-primer (3′-5′)|Marker|Target&nbsp;group|Fragment&nbsp;size&nbsp;(bp)|Reference(s)|Random&nbsp;usage&nbsp;notes|
 |-----------|------------|--------------------------------------|--------------------------------------|------|------------|------------------|------------|-----|
+|`18S_allshorts`|||||||||
+|`18S_allshorts (mod. “Euka02”)`|||||||||
+|`Aves01`|||||||||
+|`Arch01`|||||||||
+|`Baci01`|||||||||
+|`Bact02`|||||||||
+|`Bact03`|||||||||
+|`Bact04`|||||||||
+|`BACTB`|||||||||
+|`Balzano`|||||||||
+|`Banos`|||||||||
+|`Batr01`|||||||||
+|`BF1/BR1`|||||||||
+|`Bryo01`|||||||||
+|`Caporaso`|||||||||
+|`Cole01`|||||||||
+|`Coll01`|||||||||
+|`Culi01`|||||||||
+|`Cyan01`|||||||||
+|`Elas02`|||||||||
+|`Ench01`|||||||||
+|`Euka01`|||||||||
+|`Euka03`|||||||||
+|`Euk1391f-EukBr`|||||||||
+|`Fung01`|||||||||
+|`Fung02`|||||||||
+|`Inse01`|||||||||
+|`Isop01`|||||||||
+|`Leray`|||||||||
+|`Leray-XT`|||||||||
+|`Lumb01`|||||||||
+|`Lumb02`|||||||||
+|`Mamm01`|||||||||
+|`Mamm02`|||||||||
+|`MarVer1`|||||||||
+|`MarVer2`|||||||||
+|`MarVer3`|||||||||
+|`Meta01`|||||||||
 |`MiFish-E`|F: MiFish-E-F <br> R: MiFish-E-R|GTTGGTAAATCTCGTGCCAGC <br> CGACCGTGCTCTAAATGGTTG|CATAGTGGGGTATCTAATCCTAGTTTG <br> GTTTGATCCTAATCTATGGGGTGATAC|12S|Fishes/vertebrates|170–185|Miya et al. (2015)|Elasmobranch-optimized.|
-|`MiFish-U`|F: MiFish-U-F <br> R: MiFish-U-R|GTCGGTAAAACTCGTGCCAGC <br> CGACCGTGCTCAAAATGGCTG|CATAGTGGGGTATCTAATCCCAGTTTG <br> GTTTGACCCTAATCTATGGGGTGATAC|12S|Fishes/vertebrates|163–185|Miya et al. (2015)| Universal version. This is just to test how it works if I make it a really long text. How will it affect the lfdsfndkslfjdslfj fdsklfjds fdsf dsf dsfds fds fsd fsdfds|
+|`MiFish-U`|F: MiFish-U-F <br> R: MiFish-U-R|GTCGGTAAAACTCGTGCCAGC <br> CGACCGTGCTCAAAATGGCTG|CATAGTGGGGTATCTAATCCCAGTTTG <br> GTTTGACCCTAATCTATGGGGTGATAC|12S|Fishes/vertebrates|163–185|Miya et al. (2015)|Universal version.|
+|`MiFish-U (UiT mod.)`|||||||||
+|`Poly01`|||||||||
+|`Riaz1`|||||||||
+|`Riaz2 (12S-V5)`|||||||||
+|`Sper01`|||||||||
+|`Stoeck`|||||||||
+|`Tele01`|||||||||
+|`Tele02`|||||||||
 
 ### Table 2: An overview of frequently used reference databases
 |Database|Target group|Download link|Marker|Deficiencies|Notes|
 |-----------|------------|--------------------------------------|------|------------|------------------|
-|`NCBI nt`||||||
-|`NCBI nr`||||||
-|`EMBL`||||||
 |`BOLD`||||||
-|`PR2`||||||
-|`MIDORI`||||||
-|`Silva`||||||
-|`NCBI RefSeq`||||||
-|`UNITE`||||||
+|`EMBL`||||||
 |`GreenGenes`||||||
+|`MIDORI`||||||
+|`NCBI nr`||||||
+|`NCBI nt`||||||
+|`NCBI RefSeq`||||||
+|`PR2`||||||
+|`Silva`||||||
+|`UNITE`||||||
 |`+++++`||||||
 
-### Table 3: An incomplete overview of existing metabarcoding pipelines
+### Table 3: An alphabetically ordered, incomplete overview of existing metabarcoding pipelines
 |Pipeline|Primary software used|Language|Clustering|Link|Notes|
 |-----------|------------|--------------------------------------|------|------------|------------------|
-|`MetaBarFlow`||||||
-|`MJOLNIR`||||||
-|`PacMan`||||||
-|`Slim`||||||
-|`MetaWorksSite`||||||
-|`Seed2`||||||
-|`MiFish`||||||
-|`Anacapa`||||||
-|`Barque`||||||
-|`MetaWorks`||||||
-|`Banzai`||||||
-|`eDNAflow`||||||
-|`PEMA`||||||
-|`DADA2`||||||
-|`nfcore/ampliseq`||||||
 |`AMPtk`||||||
+|`Anacapa`||||||
 |`APSCALE`||||||
+|`Banzai`||||||
+|`Barque`||||||
 |`BIOCOM-PIPE`||||||
 |`Cascabel`||||||
 |`CoMA`||||||
+|`DADA2`||||||
 |`Dadaist2`||||||
+|`dadasnake`||||||
 |`DAnIEL`||||||
+|`eDNAflow`||||||
 |`FROGS`||||||
 |`gDAT`||||||
-|`dadasnake`||||||
 |`JAMP`||||||
 |`LotuS2`||||||
+|`MetaBarFlow`||||||
+|`MetaWorks`||||||
+|`MetaWorksSite`||||||
+|`MiFish`||||||
 |`MICCA`||||||
+|`MJOLNIR`||||||
 |`mothur`||||||
 |`NextITS`||||||
+|`nfcore/ampliseq`||||||
 |`OBITools3`||||||
+|`PacMan`||||||
+|`PEMA`||||||
 |`PipeCraft2`||||||
 |`PIPITS`||||||
 |`QIIME 2`||||||
 |`SCATA`||||||
+|`Seed2`||||||
+|`Slim`||||||
 |`Tourmaline`||||||
 |`USEARCH`||||||
 |`VSEARCH`||||||
 |`VTAM`||||||
-
-
-
-
 
 ## Acknowledgements
 This repository was created under the framework of the EU-project [MARCO-BOLO](https://marcobolo-project.eu/). The MARCO-BOLO project is funded by the European Union under the Horizon Europe Programme, Grant Agreement No. 101082021 (MARCO-BOLO). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency (REA). Neither the European Union nor the granting authority can be held responsible for them. UK participants in MARCO-BOLO are supported by the UKRI’s Horizon Europe Guarantee under the Grant No. 10068180 (MS); No. 10063994 (MBA); No. 10048178 (NOC).
