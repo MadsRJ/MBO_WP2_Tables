@@ -55,20 +55,20 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Tele02`|**F:** Tele02-F <br> **R:** Tele02-R|AAACTCGTGCCAGCCACC <br> CCACCGACCGTGCTCAAA|GTTTGACCCTAATCTATGGG <br> GGGTATCTAATCCCAGTTTG|12S|Fishes/vertebrates|129-209|Taberlet et al. (2018), Thomsen et al. (2016)|F-primer first described as "V05F_898" from Thomsen et al. (2016).|
 
 ### Table 2: An overview of frequently used reference databases
-|Database|Target group|Download link|Marker|Deficiencies|Notes|
-|-----------|------------|--------------------------------------|------|------------|------------------|
-|`BOLD`||||||
-|`CRABS_NordicRefDBs`||||||
-|`EMBL`||||||
-|`GreenGenes`||||||
-|`MIDORI`||||||
-|`NCBI nr`||||||
-|`NCBI nt`||||||
-|`NCBI RefSeq`||||||
-|`PR2`||||||
-|`Silva`||||||
-|`UNITE`||||||
-|`+++++`||||||
+|Database|Target group|Download link|Marker|Deficiencies|Last updated|Licence type|Coverage (Taxa/Regions|Notes|
+|--------|------------|-------------|------|------------|------------|------------|----------------------|-----|
+|`BOLD`|||||||||
+|`CRABS_NordicRefDBs`|||||||||
+|`EMBL`|||||||||
+|`GreenGenes`|||||||||
+|`MIDORI`|||||||||
+|`NCBI nr`|||||||||
+|`NCBI nt`|||||||||
+|`NCBI RefSeq`|||||||||
+|`PR2`|||||||||
+|`Silva`|||||||||
+|`UNITE`|Fungi|https://unite.ut.ee/|ITS|Limited to fungal taxa|Specialized for fungal ITS sequences|YYYY-MM-DD - **CHECK**|Open|Fungal taxa|
+|`+++++`|||||||||
 
 ### Table 3: An alphabetically ordered, incomplete overview of existing metabarcoding pipelines
 |Pipeline|Primary software used|Language|Clustering|Link|Notes|
