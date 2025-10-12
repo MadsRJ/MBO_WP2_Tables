@@ -58,6 +58,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |Database|Target group|Download link|Marker|Deficiencies|Notes|
 |-----------|------------|--------------------------------------|------|------------|------------------|
 |`BOLD`||||||
+|`CRABS_NordicRefDBs`||||||
 |`EMBL`||||||
 |`GreenGenes`||||||
 |`MIDORI`||||||
