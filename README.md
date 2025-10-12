@@ -8,8 +8,8 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`18S_allshorts`|**F:** 18S_allshorts forward <br> **R:** 18S_allshorts reverse|TTTGTCTGSTTAATTSCG <br> GCSTTAATTSGTCTGTTT|TCACAGACCTGTTATTGC <br> CGTTATTGTCCAGACACT|18S (V7)|Eukaryotes|~110|Guardiola et al. (2015)|Highly specific for eukaryotes. Amplifies same region as Hardy et al. (2010), with almost same resolution for 40 bp less.|
 |`18S_allshorts (mod. "Euka02")`|**F:** 18S_allshorts forward <br> **R:** 18S_allshorts reverse (mod.)|TTTGTCTGSTTAATTSCG <br> GCSTTAATTSGTCTGTTT|CACAGACCTGTTATTGC <br> CGTTATTGTCCAGACAC|18S (V7)|Eukaryotes|~110|Guardiola et al. (2015), Taberlet et al. (2018)|First "T" omitted compared to original reverse primer to better equilibrate the melting temperatures of the two primers.|
 |`Aves01`|||||||||
-|`Arch01`|||||||||
-|`Baci01`|||||||||
+|`Arch01`|**F:** Arch01-F <br> **R:** Arch01-R|CCTGCTCCTTGCACACAC <br> CACACACGTTCCTCGTCC|CCTACGGCTACCTTGTTAC <br> CATTGTTCCATCGGCATCC|16S (V9)|Archaea|~85|Taberlet et al. (2018)|Highly specific of Archaea.|
+|`Baci01`|**F:** Baci01-F <br> **R:** Baci01-R|ATTCCAGCTCCAATAGCGTA <br> ATGCGATAACCTCGACCTTA|CTTTRAACRCLCTRATTTYTTCAC <br> CACTTYTTTARTCLCRCAARTTTC|18S (V4)|Bacillariophyta (diatoms)|~150|Taberlet et al. (2018)|Will also amplify other eukaryotes.|
 |`Bact02`|**F:** Bact02-F <br> **R:** Bact02-R|GCCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACCG|GGACTACCMGGGTATCTAA <br> AATCTATGGGMCCATCAGG|16S (V4)|Bacteria+Archaea|~254|Taberlet et al. (2018)||
 |`Bact03` **CHECK**|**F:** 515F – **was this modified compared to original?** <br> **R:** 806RB|GTGYCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACYGTG|GGACTACNVGGGTWTCTAAT <br> TAATCTWTGGGVNCATCAGG|16S (V4)|Bacteria+Archaea|~253|Baker et al. (2003), Quince et al. (2011), Apprill et al. (2015)|Recommended by Earth Microbiome Project. Not necessary to degenerate both primers if only targeting bacteria (Taberlet et al. 2018).|
 |`Bact04` **CHECK**|**F:** dsa – **CHECK** <br> **R:** dsa - **CHECK**|GTGYCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACYGTG|CCGYCAATTYMTTTRAGTTT <br> TTTGARTTTMYTTAACYGCC|16S (V4-V5)|Bacteria+Archaea|~373-378|Baker et al. (2003), Quince et al. (2011)|Recommended by Earth Microbiome Project. Also amplifies a relatively large number of eukaryotes (Taberlet et al. 2018).|
@@ -23,14 +23,14 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Cole01`|||||||||
 |`Coll01`|||||||||
 |`Culi01`|||||||||
-|`Cyan01`|||||||||
+|`Cyan01`|**F:** Cyan01-F <br> **R:** Cyan01-R|CTYAAGCCGACATTCTCAC <br> CACTCTTACAGCCGAAYTC|GACAACYAGGAGGTTTGC <br> CGTTTGGAGGAYCAACAG|23S|Cyanobacteria|~180|Taberlet et al. (2018)||
 |`Elas02`|||||||||
 |`Ench01`|||||||||
-|`Euka01`|||||||||
-|`Euka03`|||||||||
-|`Euk1391f-EukBr`|||||||||
-|`Fung01`|||||||||
-|`Fung02`|||||||||
+|`Euka01` **CHECK**|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|TGGTGCATGGCCGTTCTTAGT <br> TGATTCTTGCCGGTACGTGGT|CATCTAAGGGCATCACAGACC <br> CCAGACACTACGGGAATCTAC|18S (V7)|Eukaryotes|~161|Hardy et al. (2010)|Highly specific of eukaryotes. Much longer fragment for certain insects, amphipods and isopods (Taberlet et al. 2018).|
+|`Euka03`|**F:** Euka03-F <br> **R:** Euka03-R|CCCTTTGTACACACCGCC <br> CCGCCACACATGTTTCCC|CTTCYGCAGGTTCACCTAC <br> CATCCACTTGGACGYCTTC|18S (V9)|Eukaryotes|~133|Taberlet et al. (2018)|18S V9 has less reference sequences than V7, but this marker should provide higher taxonomic resolution and has a more standardized fragment size (Taberlet et al. 2018).|
+|`Euk1391f-EukBr`|**F:** Euk1391f <br> **R:** EukBr|GTACACACCGCCCGTC <br> CTGCCCGCCACACATG|TGATCCTTCTGCAGGTTCACCTAC <br> CATCCACTTGGACGTCTTCCTAGT|18S (V9)|Eukaryotes|~128|Amaral-Zettler et al. (2009), Stoeck et al. (2010), https://earthmicrobiome.org/protocols-and-standards/18s/|Highly specific of eukaryotes. Used by Earth Microbiome Project. The reverse primer is not optimal. Described as “Euka04” in Taberlet et al. (2018).|
+|`Fung01` **CHECK**|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|GGAAGTAAAAGTCGTAACAAGG <br> GGAACAATGCTGAAAATGAAGG|CCAAGAGATCCGTTGYTGAAAGT <br> TGAAAGTYGTTGCCTAGAGAACC|ITS1|Fungi|~226|Epp et al. (2012)|Does not properly amplify Glomeromycota. Highly variable fragment length for some fungi (Taberlet et al. 2018).|
+|`Fung02` **CHECK**|**F:** dsa - **CHECK** <br> **R:** Fung02-R|GGAAGTAAAAGTCGTAACAAGG <br> GGAACAATGCTGAAAATGAAGG|CAAGAGATCCGTTGYTGAAAGTK <br> KTGAAAGTYGTTGCCTAGAGAAC|ITS1|Fungi|~225|Epp et al. (2012), Taberlet et al. (2018)|Modified version of Epp et al (2012)’s reverse primer to properly amplify Glomeromycota. Highly variable fragment length for some fungi (Taberlet et al. 2018).|
 |`Inse01`|||||||||
 |`Isop01`|||||||||
 |`Leray`|**F:** mlCOIintF <br> **R:** jgHCO2198|GGWACWGGWTGAACWGTWTAYCCYCC <br> CCYCCYATWTGWCAAGTWGGWCAWGG|TAIACYTCIGGRTGICCRAARAAYCA <br> ACYAARAARCCIGTRGGICTYCAIAT|COI|Metazoans|313|Leray et al. (2013), Geller et al. (2013)|Note that “I” (inosine) often gets replaced with “N” for bioinformatic software to recognize the wobble-base.|
