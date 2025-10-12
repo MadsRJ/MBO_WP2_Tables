@@ -55,9 +55,9 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Tele02`|**F:** Tele02-F <br> **R:** Tele02-R|AAACTCGTGCCAGCCACC <br> CCACCGACCGTGCTCAAA|GTTTGACCCTAATCTATGGG <br> GGGTATCTAATCCCAGTTTG|12S|Fishes/vertebrates|129-209|Taberlet et al. (2018), Thomsen et al. (2016)|F-primer first described as "V05F_898" from Thomsen et al. (2016).|
 
 ### Table 2: An overview of frequently used reference databases
-|Database|Target&nbsp;group|Download&nbsp;link|Marker(s)|Deficiencies|Last&nbsp;updated|Licence&nbsp;type|Coverage&nbsp;(Taxa/Regions)|Notes|
-|--------|-----------------|------------------|---------|------------|-----------------|-----------------|----------------------------|-----|
-|`BOLD`|Animals, plants, fungi||COI, rbcL, matK, ITS, 18S, 12S|||||Widely used database for species-level identification in DNA barcoding|
+|Database|Target&nbsp;group|Website/download&nbsp;link|Marker(s)|Deficiencies|Last&nbsp;updated|Licence&nbsp;type|Coverage&nbsp;(Regions)|Notes|
+|--------|-----------------|--------------------------|---------|------------|-----------------|-----------------|----------------------------|-----|
+|`BOLD`|Animals, plants, fungi|https://boldsystems.org/|COI, rbcL, matK, ITS, 18S, 12S|Lack of prokaryotes. Taxonomic backbone different to other databases. Needs curation.|Frequent updates|Open/Restricted|Worldwide|Widely used database for species-level identification in DNA barcoding|
 |`CRABS_NordicRefDBs`|||||||||
 |`DDBJ`|||||||||
 |`EMBL`|||||||||
