@@ -134,7 +134,7 @@ This repository was created under the framework of the EU-project [MARCO-BOLO](h
 ![Fig1](figures_readme/MARCO-BOLO_logo_col.png)
 
 ## References 
-Amaral-Zettler, L. A., McCliment, E. A., Ducklow, H. W., Huse, S. M. (2009). A method for studying protistan diversity using massively parallel sequencing of V9 hypervariable regions of small-subunit ribosomal RNA genes. PLOS One 4(7): e6372. https://doi.org/10.1371/journal.pone.0006372.
+Amaral-Zettler, L. A., McCliment, E. A., Ducklow, H. W., Huse, S. M. (2009). A method for studying protistan diversity using massively parallel sequencing of V9 hypervariable regions of small-subunit ribosomal RNA genes. PLoS One 4(7), e6372. https://doi.org/10.1371/journal.pone.0006372.
 
 Baker, G. C., Smith, J. J., Cowan, D. A. (2003). Review and re-analysis of domain-specific 16S primers. Journal of Microbiological Methods 55(3), 541-555. https://doi.org/10.1016/j.mimet.2003.08.009.
 
@@ -148,47 +148,45 @@ Caporaso, J. G., Lauber, C. L., Walters, W. A., Berg-Lyons, D., Lozupone, C. A.,
 
 Elbrecht, V. & Leese, F. (2017). Validation and development of COI metabarcoding primers for freshwater macroinvertebrate bioassessment. Frontiers in Environmental Science 5, 11. https://doi.org/10.3389/fenvs.2017.00011.
 
-Epp et al. (2012)
+Epp, L. S., Boessenkool, S., Bellemain, E. P., Haile, J., Esposito, A., Riaz, T., Erséus, C., Gusarov, V. I., Edwards, M. E., Johnsen, A., Stenøien, H. K., Hassel, K., Kauserud, H., Yoccoz, N. G., Bråthen, K. A., Willerslev, E., Taberlet, P., Coissac, E., Brochmann, C. (2012). New environmental metabarcodes for analysing soil DNA: potential for studying past and present ecosystems. Molecular Ecology 21(8), 1821-1833. https://doi.org/10.1111/j.1365-294X.2012.05537.x.
 
-Hardy et al. (2010)
+Hardy, C. M., Krull, E. S., Hartley, D. M., Oliver, R. L. (2010). Carbon source accounting for fish using combined DNA and stable isotope analyses in a regulated lowland river weir pool. Molecular Ecology 19(1), https://doi.org/10.1111/j.1365-294X.2009.04411.x.
 
-Fliegerova et al. (2014)
+Fliegerova, K., Tapio, I., Bonin, A., Mrazek, J., Callegari, M. L., Bani, P., Bayat, A., Vilkki, J., Kopečný, J., Shingfield, K. J., Boyer, F., Coissac, E., Taberlet, P., Wallace, R. J. (2014). Effect of DNA extraction and sample preservation method on rumen bacterial population. Anaerobe 29, 80-84. https://doi.org/10.1016/j.anaerobe.2013.09.015.
 
 Geller, J., Meyer, C., Parker, M., & Hawk, H. (2013). Redesign of PCR primers for mitochondrial cytochrome c oxidase subunit I for marine invertebrates and application in all-taxa biotic surveys. Molecular Ecology Resources 13(5), 851-861. https://doi.org/10.1111/1755-0998.12138.
 
-Giguet-Covex et al. (2014)
+Giguet-Covex, C., Pansu, J., Arnaud, F., Rey, P.-J., Griggo, C., Gielly, L., Domaizon, I., Coissac, E., David, F., Choler, P., Poulenard, J., Taberlet, P. (2014). Long livestock farming history and human landscape shaping revealed by lake sediment DNA. Nature Communications 5, 3211. https://doi.org/10.1038/ncomms4211.
 
-Guardiola et al. (2015)
+Guardiola, M., Uriz, M. J., Taberlet, P., Coissac, E., Wangensteen, O. S., & Turon, X. (2015). Deep-sea, deep-sequencing: Metabarcoding extracellular DNA from sediments of marine canyons. PLoS One 10(10), e0139633. https://doi.org/10.1371/journal.pone.0139633.
 
-Janssen et al. (2017)
+Janssen, P., Bec, S., Fuhr, M., Taberlet, P., Brun, J.-J., Bouget, C. (2017). Present conditions may mediate the legacy effect of past land-use changes on species richness and composition of above- and below-ground assemblages. Journal of Ecology 106(1), 306-318. https://doi.org/10.1111/1365-2745.12808.
 
 Leray, M., Yang, J. Y., Meyer, C. P., Mills, S. C., Agudelo, N., Ranwez, V., Boehm, J. T., & Machida, R. J. (2013). A new versatile primer set targeting a short fragment of the mitochondrial COI region for metabarcoding metazoan diversity: application for characterizing coral reef fish gut contents. Frontiers in Zoology 10, 34. https://doi.org/10.1186/1742-9994-10-34.
 
-Miya et al. (2015)
+Miya, M., Sato, Y., Fukunaga, T., Sado, T., Poulsen, J. Y., Sato, K., Minamoto, T., Yamamoto, S., Yamanaka, H., Araki, H., Kondoh, M., & Iwasaki, W. (2015). MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: Detection of more than 230 subtropical marine species. Royal Society Open Science, 2(7), 150088. https://doi.org/10.1098/rsos.150088.
 
-Quince et al. (2011)
+Quince, C., Lanzen, A., Davenport, R. J., Turnbaugh, P. J. (2011). Removing noise from pyrosequenced amplicons. BMC Bioinformatics 12, 38. https://doi.org/10.1186/1471-2105-12-38.
 
-Riaz et al. (2011)
+Riaz, T., Shehzad, W., Viari, A., Pompanon, F., Taberlet, P., Coissac, E. (2011). ecoPrimers: inference of new DNA barcode markers from whole genome sequence analysis. Nucleic Acids Research 39(21), e145. https://doi.org/10.1093/nar/gkr732.
 
-Sales et al. (2019)
+Sales, N. G., Wangensteen, O. S., Carvalho, D. C., Mariani, S. (2019). Influence of preservation methods, sample medium and sampling time on eDNA recovery in a neotropical river. Environmental DNA 1(2), 119–130. https://doi.org/10.1002/edn3.14.
 
-Schneider et al. (2016)
+Schneider, J., Valentini, A., Dejean, T., Montarsi, F., Taberlet, P., Glaizot, O., Fumagalli, L. (2016). Detection of invasive mosquito vectors using environmental DNA (eDNA) from water samples. PLoS ONE 11(9), e0162493. https://doi.org/10.1371/journal.pone.0162493.
 
-Stoeck et al. (2010)
+Stoeck, T., Bass, D. Nebel, M., Christen, R., Jones, M. D. M., Breiner, H.-W., Richards, T. A. (2010). Multiple marker parallel tag environmental DNA sequencing reveals a highly complex eukaryotic community in marine anoxic water. Molecular Ecology 19(s1), 21-31. https://doi.org/10.1111/j.1365-294X.2009.04480.x.
 
-Taberlet et al. (2007)
+Taberlet, P., Coissac, E., Pompanon, F., Gielly, L., Miquel, C., Valentini, A., Vermat, T., Corthier, G., Brochmann, C., Willerslev, E. (2007). Power and limitations of the chloroplast trn L (UAA) intron for plant DNA barcoding. Nucleic Acids Research 35(3), e14. https://doi.org/10.1093/nar/gkl938.
 
-Taberlet et al. (2018)
+Taberlet, P., Bonin, A., Zinger, L., & Coissac, E. (2018). Environmental DNA: For biodiversity research and monitoring. Oxford University Press.
 
-Thomsen et al. (2016)
+Thomsen, P. F., Møller, P. R., Sigsgaard, E. E., Knudsen, S. W., Jørgensen, O. A., & Willerslev, E. (2016). Environmental DNA from seawater samples correlate with trawl catches of subarctic, deepwater fishes. PLoS One, 11(11), e0165252. https://doi.org/10.1371/journal.pone.0165252.
 
-Valentini et al. (2016)
+Valentini, A., Taberlet, P., Miaud, C., Civade, R., Herder, J., Thomsen, P. F., Bellemain, E., Besnard, A., Coissac, E., Boyer, F., Gaboriaud, C., Jean, P., Poulet, N., Roset, N., Copp, G. H., Geniez, P., Pont, D., Argillier C., Baudoin, J.-M., Peroux, T., Crivelli, A. J., Olivier, A., Acqueberge, M., Le Brun, M., Møller, P. R., Willerslev, E., Dejean, T. (2016). Next-generation monitoring of aquatic biodiversity using environmental DNA metabarcoding. Molecular Ecology 25(4), 929-942. https://doi.org/10.1111/mec.13428.
 
 Valsecchi et al. (2020)
 
 Wangensteen, O. S., Palacín, C., Guardiola, M., & Turon, X. (2018). DNA metabarcoding of littoral hard-bottom communities: high diversity and database gaps revealed by two molecular markers. PeerJ 6, e4705. https://doi.org/10.7717/peerj.4705.
-
-++++
 
 ## Questions
 If you have questions or issues, email Mads Reinholdt Jensen (mads.jensen@uit.no) or leave a comment on this repository.
