@@ -136,7 +136,7 @@ This repository was created under the framework of the EU-project [MARCO-BOLO](h
 ## References
 Amaral-Zettler, L. A., McCliment, E. A., Ducklow, H. W., Huse, S. M. (2009). A method for studying protistan diversity using massively parallel sequencing of V9 hypervariable regions of small-subunit ribosomal RNA genes. PLoS One 4(7), e6372. https://doi.org/10.1371/journal.pone.0006372.
 
-Asami et al. (2005)
+Asami, H., Aida, M., Watanaba, K. (2005). Accelerated sulfur cycle in coastal marine sediment beneath areas of intensive shellfish aquaculture. Applied Environmental Microbiology 71(6), 2925-2933. https://doi.org/10.1128/AEM.71.6.2925-2933.2005. 
 
 Baker, G. C., Smith, J. J., Cowan, D. A. (2003). Review and re-analysis of domain-specific 16S primers. Journal of Microbiological Methods 55(3), 541-555. https://doi.org/10.1016/j.mimet.2003.08.009.
 
@@ -190,7 +190,7 @@ Valsecchi, E., Bylemans, J., Goodman, S. J., Lombardi, R., Carr, I., Castellano,
 
 Wangensteen, O. S., Palacín, C., Guardiola, M., & Turon, X. (2018). DNA metabarcoding of littoral hard-bottom communities: high diversity and database gaps revealed by two molecular markers. PeerJ 6, e4705. https://doi.org/10.7717/peerj.4705.
 
-Watanabe et al. (2001)
+Watanabe, K., Kodama, Y., Harayama, S. (2001). Design and evaluation of PCR primers to amplify bacterial 16S ribosomal DNA fragments used for community fingerprinting. Journal of Microbiological Methods 44(3), 253-262. https://doi.org/10.1016/S0167-7012(01)00220-2.
 
 ## Questions
 If you have questions or issues, email Mads Reinholdt Jensen (mads.jensen@uit.no) or leave a comment on this repository.
