@@ -64,7 +64,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`ENSEMBL`|||||||||
 |`FlyBase`|||||||||
 |`GOLD`|||||||||
-|`GreenGenes`|||||||||
+|`GreenGenes2`|Microbes|https://github.com/biocore/greengenes2/ & https://mothur.org/wiki/greengenes2-formatted_databases/|16S||2022-10-xx|BSD 2-Clause License, but with a 3rd clause that prohibits others from using the name of the copyright holder or its contributors to promote derived products without written consent.|Worldwide|Outdated but still used in some microbial studies|
 |`GTDB`|||||||||
 |`HMP`|||||||||
 |`IMG`|||||||||
@@ -74,8 +74,8 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`NCBI nr`|||||||||
 |`NCBI nt`|||||||||
 |`NCBI RefSeq`|||||||||
-|`PDB`|||||||||
-|`Pfam`|||||||||
+|`PDB`||||||||Critical for structural biology and protein studies.|
+|`Pfam`|Protein families|http://pfam.xfam.org/ & https://academic.oup.com/nar/article/49/D1/D412/5943818?login=true & https://www.ebi.ac.uk/interpro/|Protein sequences||2025-06-19|Creative Commons Zero (“CC0”) licence.|Worldwide|Essential for functional genomics and pathway analysis. Critical for structural biology and protein studies.|
 |`Phytozome`|Plants|https://phytozome-next.jgi.doe.gov/ & https://academic.oup.com/nar/article/40/D1/D1178/2903577?login=true|Genomes||Continuously|Creative Commons Attribution 4.0 International License|Worldwide|Relevant if exploring nuclear plant markers, otherwise not|
 |`PR2`|Protists|https://pr2-database.org/|18S||2025-04-02|MIT License|Worldwide|Specialized and curated for protist ribosomal sequences|
 |`RDP`|Bacteria, Archaea, Fungi||16S, 28S||||Worldwide|Focused on ribosomal RNA sequences, ideal for microbial metabarcoding.|
