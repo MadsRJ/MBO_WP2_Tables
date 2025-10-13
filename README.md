@@ -82,8 +82,8 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Silva`|Microbes, eukaryotes|https://www.arb-silva.de/|16S, 18S, 23S, 28S|Taxonomic inconsistencies, biases toward well-studied organisms, sequence quality issues|2024-07-11|Create Commons Attribution 4.0 (CC-BY 4.0)|Worldwide|A comprehensive online resource for quality checked and aligned ribosomal RNA sequence data|
 |`TARA Oceans`|||||||||
 |`UNITE`|Fungi|https://unite.ut.ee/|ITS|Limited to fungal taxa|2025-06-17|CC BY-NC-ND 4.0|Worldwide|Specialized for fungal ITS sequences|
-|`WormBase`|C. elegans and related nematodes|https://www.alliancegenome.org/members/wormbase|||||||
-|`ZFIN`|||||||||
+|`WormBase`|*C. elegans* and related nematodes|https://www.alliancegenome.org/members/wormbase|||||||
+|`ZFIN`|*Danio rerio* (zebrafish)|https://zfin.org/|Genomic|||Creative Commons Attribution 4.0 International License|Zebrafish are native to South Asia, but sold worldwide in aquarium trade|Only relevant for studies of the model organism zebrafish|
 
 ### Table 3: An alphabetically ordered, incomplete overview of existing metabarcoding pipelines
 |Pipeline|Primary software used|Language|Clustering|Link|Additional&nbsp;usage&nbsp;notes&nbsp;and&nbsp;other&nbsp;relevant&nbsp;information|
