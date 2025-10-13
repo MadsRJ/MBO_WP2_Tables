@@ -3,7 +3,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 
 ### Table 1: An incomplete overview of empirically tested and/or frequently used metabarcoding primers and their target groups
 
-|Primer&nbsp;combination&nbsp;name|Individual&nbsp;primer&nbsp;names&nbsp;(F&nbsp;and&nbsp;R)|F-primer (5′-3′) <br> F-primer (3′-5′)|R-primer (5′-3′) <br> R-primer (3′-5′)|Marker&nbsp;gene|Target&nbsp;group|Fragment&nbsp;size&nbsp;(bp)|Reference(s)|Additional&nbsp;usage&nbsp;notes&nbsp;and&nbsp;relevant&nbsp;information|
+|Primer&nbsp;combination&nbsp;name|Individual&nbsp;primer&nbsp;names&nbsp;(F&nbsp;and&nbsp;R)|F-primer (5′-3′) <br> F-primer (3′-5′)|R-primer (5′-3′) <br> R-primer (3′-5′)|Marker&nbsp;gene|Target&nbsp;group|Fragment&nbsp;size&nbsp;(bp)|Reference(s)|Additional&nbsp;usage&nbsp;notes&nbsp;and&nbsp;other&nbsp;relevant&nbsp;information|
 |-----------|------------|--------------------------------------|--------------------------------------|------|------------|------------------|------------|-----|
 |`18S_allshorts`|**F:** 18S_allshorts forward <br> **R:** 18S_allshorts reverse|TTTGTCTGSTTAATTSCG <br> GCSTTAATTSGTCTGTTT|TCACAGACCTGTTATTGC <br> CGTTATTGTCCAGACACT|18S (V7)|Eukaryotes|~110|Guardiola et al. (2015)|Highly specific for eukaryotes. Amplifies same region as Hardy et al. (2010), with almost same resolution for 40 bp less.|
 |`18S_allshorts (mod. "Euka02")`|**F:** 18S_allshorts forward <br> **R:** 18S_allshorts reverse (mod.)|TTTGTCTGSTTAATTSCG <br> GCSTTAATTSGTCTGTTT|CACAGACCTGTTATTGC <br> CGTTATTGTCCAGACAC|18S (V7)|Eukaryotes|~110|Guardiola et al. (2015), Taberlet et al. (2018)|First "T" omitted compared to original reverse primer to better equilibrate the melting temperatures of the two primers.|
@@ -11,7 +11,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Arch01`|**F:** Arch01-F <br> **R:** Arch01-R|CCTGCTCCTTGCACACAC <br> CACACACGTTCCTCGTCC|CCTACGGCTACCTTGTTAC <br> CATTGTTCCATCGGCATCC|16S (V9)|Archaea|~85|Taberlet et al. (2018)|Highly specific of Archaea.|
 |`Baci01`|**F:** Baci01-F <br> **R:** Baci01-R|ATTCCAGCTCCAATAGCGTA <br> ATGCGATAACCTCGACCTTA|CTTTRAACRCLCTRATTTYTTCAC <br> CACTTYTTTARTCLCRCAARTTTC|18S (V4)|Bacillariophyta (diatoms)|~150|Taberlet et al. (2018)|Will also amplify other eukaryotes.|
 |`Bact02`|**F:** Bact02-F <br> **R:** Bact02-R|GCCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACCG|GGACTACCMGGGTATCTAA <br> AATCTATGGGMCCATCAGG|16S (V4)|Bacteria+Archaea|~254|Taberlet et al. (2018)||
-|`Bact03` **CHECK**|**F:** 515F – **was this modified compared to original?** <br> **R:** 806RB|GTGYCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACYGTG|GGACTACNVGGGTWTCTAAT <br> TAATCTWTGGGVNCATCAGG|16S (V4)|Bacteria+Archaea|~253|Baker et al. (2003), Quince et al. (2011), Apprill et al. (2015)|Recommended by Earth Microbiome Project. Not necessary to degenerate both primers if only targeting bacteria (Taberlet et al. 2018).|
+|`Bact03`|**F:** Bact03-F <br> **R:** 806RB|GTGYCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACYGTG|GGACTACNVGGGTWTCTAAT <br> TAATCTWTGGGVNCATCAGG|16S (V4)|Bacteria+Archaea|~253|Baker et al. (2003), Quince et al. (2011), Apprill et al. (2015)|Recommended by Earth Microbiome Project. Not necessary to degenerate both primers if only targeting bacteria (Taberlet et al. 2018). There appears to be a couple of different versions of the F-primer, with "GTGCCAGCMGCCGCGGTAA" reported by Baker et al. (2003), "GTGNCAGCMGCCGCGGTAA" reported by Quince et al. (2011), and "GTGYCAGCMGCCGCGGTAA" first reported by Watanabe et al. (2001) and later Asami et al. (2005)|
 |`Bact04` **CHECK**|**F:** dsa – **CHECK** <br> **R:** dsa - **CHECK**|GTGYCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACYGTG|CCGYCAATTYMTTTRAGTTT <br> TTTGARTTTMYTTAACYGCC|16S (V4-V5)|Bacteria+Archaea|~373-378|Baker et al. (2003), Quince et al. (2011)|Recommended by Earth Microbiome Project. Also amplifies a relatively large number of eukaryotes (Taberlet et al. 2018).|
 |`BACTB`|**F:** BACTB-F <br> **R:** BACTB-R|GGATTAGATACCCTGGTAGT <br> TGATGGTCCCATAGATTAGG|CACGACACGAGCTGACG <br> GCAGTCGAGCACAGCAC|16S (V5-V6)|Bacteria|~258|Fliegerova et al. (2014)||
 |`Balzano`|**F:** TAReuk454FWD1 (V4F) <br> **R:** V4RB|CCAGCASCYGCGGTAATTCC <br> CCTTAATGGCGYCSACGACC|ACTTTCGTTCTTGATYRR <br> RRYTAGTTCTTGCTTTCA|18S (V4)|Eukaryotes|~380|Stoeck et al. (2010), Balzano et al. (2015)||
@@ -19,7 +19,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Batr01`|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|ACACCGCCCGTCACCCT <br> TCCCACTGCCCGCCACA|GTAYACTTACCATGTTACGACTT <br> TTCAGCATTGTACCATTCAYATG|12S|Batrachia (frogs and salamanders)|~51|Valentini et al. (2016)||
 |`BF1/BR1`|**F:** BF1 <br> **R:** BR1|ACWGGWTGRACWGTNTAYCC <br> CCYATNTGWCARGTWGGWCA|ARYATDGTRATDGCHCCDGC <br> CGDCCHCGDTARTGDTAYRA|COI|Macroinvertebrates|217|Elbrecht & Leese (2017)|Designed for mock communities, so co-amplifies a lot of undesired taxa when applied to eDNA samples.|
 |`Bryo01`|**F:** bryo_P6F <br> **R:**  Bryo01-R|GATTCAGGGAAACTTAGGTTG <br> GTTGGATTCAAAGGGACTTAG|CCATYGAGTCTCTGCACC <br> CCACGTCTCTGAGYTACC|trnL|Bryophyta|~53|Epp et al. (2012), Taberlet et al. (2018)|One degenerated bp in reverse primer compared to Epp et al. (2012).|
-|`Caporaso`|**F:** F515 <br> **R:** R806|GTGCCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACCGTG|GGACTACHVGGGTWTCTAAT <br> TAATCTWTGGGVHCATCAGG|16S|Bacteria|**CHECK** XX|Caporaso et al. (2011)||
+|`Caporaso`|**F:** F515 <br> **R:** R806|GTGCCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACCGTG|GGACTACHVGGGTWTCTAAT <br> TAATCTWTGGGVHCATCAGG|16S|Bacteria|**CHECK** XX|Baker et al. (2003), Caporaso et al. (2011)||
 |`Cole01`|**F:** Cole01-F <br> **R:** Cole01-R|TGCWAAGGTAGCATAATMATTAG <br> GATTAMTAATACGATGGAAWCGT|TCTATAGGGTCTTCTCGTC <br> CTGCTCTTCTGGGATATCT|16S|Coleoptera (beetles)|~107|Taberlet et al. (2018)|Modified primers from Epp et al. (2012). Also amplifies other metazoans.|
 |`Coll01` **CHECK**|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|ACGCTGTTATCCCTWAGG <br> GGAWTCCCTATTGTCGCA|GACGATAAGACCCTWTAGA <br> AGATWTCCCAGAATAGCAG|16S|Collembola (springtails)|~132|Janssen et al. (2017)||
 |`Culi01` **CHECK**|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|ACGCTGTTATCCCTAAGGTAACTTA <br> ATTCAATGGAATCCCTATTGTCGCA|GACGAGAAGACCCTATAGATCTTTAT <br> TATTTCTAGATATCCCAGAAGAGCAG|16S|Culicidae (mosquitos)|~145|Schneider et al. (2016)||
@@ -133,8 +133,10 @@ This repository was created under the framework of the EU-project [MARCO-BOLO](h
 
 ![Fig1](figures_readme/MARCO-BOLO_logo_col.png)
 
-## References 
+## References
 Amaral-Zettler, L. A., McCliment, E. A., Ducklow, H. W., Huse, S. M. (2009). A method for studying protistan diversity using massively parallel sequencing of V9 hypervariable regions of small-subunit ribosomal RNA genes. PLoS One 4(7), e6372. https://doi.org/10.1371/journal.pone.0006372.
+
+Asami et al. (2005)
 
 Baker, G. C., Smith, J. J., Cowan, D. A. (2003). Review and re-analysis of domain-specific 16S primers. Journal of Microbiological Methods 55(3), 541-555. https://doi.org/10.1016/j.mimet.2003.08.009.
 
@@ -187,6 +189,8 @@ Valentini, A., Taberlet, P., Miaud, C., Civade, R., Herder, J., Thomsen, P. F., 
 Valsecchi, E., Bylemans, J., Goodman, S. J., Lombardi, R., Carr, I., Castellano, L., Galimberti, A., Galli, P. (2020). Novel universal primers for metabarcoding environmental DNA surveys of marine mammals and other marine vertebrates. Environmental DNA 2(4), 460-476. https://doi.org/10.1002/edn3.72.
 
 Wangensteen, O. S., Palacín, C., Guardiola, M., & Turon, X. (2018). DNA metabarcoding of littoral hard-bottom communities: high diversity and database gaps revealed by two molecular markers. PeerJ 6, e4705. https://doi.org/10.7717/peerj.4705.
+
+Watanabe et al. (2001)
 
 ## Questions
 If you have questions or issues, email Mads Reinholdt Jensen (mads.jensen@uit.no) or leave a comment on this repository.
