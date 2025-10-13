@@ -76,13 +76,13 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`NCBI RefSeq`|||||||||
 |`PDB`|||||||||
 |`Pfam`|||||||||
-|`Phytozome`|||||||||
-|`PR2`|Protists|https://pr2-database.org/|18S||2025-04-02|MIT License|Worldwide||
+|`Phytozome`|Plants|https://phytozome-next.jgi.doe.gov/ & https://academic.oup.com/nar/article/40/D1/D1178/2903577?login=true|Genomes||Continuously|Creative Commons Attribution 4.0 International License|Worldwide|Relevant if exploring nuclear plant markers, otherwise not|
+|`PR2`|Protists|https://pr2-database.org/|18S||2025-04-02|MIT License|Worldwide|Specialized and curated for protist ribosomal sequences|
 |`RDP`|Bacteria, Archaea, Fungi||16S, 28S||||Worldwide|Focused on ribosomal RNA sequences, ideal for microbial metabarcoding.|
 |`Silva`|Microbes, eukaryotes|https://www.arb-silva.de/|16S, 18S, 23S, 28S|Taxonomic inconsistencies, biases toward well-studied organisms, sequence quality issues|2024-07-11|Create Commons Attribution 4.0 (CC-BY 4.0)|Worldwide|A comprehensive online resource for quality checked and aligned ribosomal RNA sequence data|
 |`TARA Oceans`|||||||||
 |`UNITE`|Fungi|https://unite.ut.ee/|ITS|Limited to fungal taxa|2025-06-17|CC BY-NC-ND 4.0|Worldwide|Specialized for fungal ITS sequences|
-|`WormBase`|||||||||
+|`WormBase`|C. elegans and related nematodes|https://www.alliancegenome.org/members/wormbase|||||||
 |`ZFIN`|||||||||
 
 ### Table 3: An alphabetically ordered, incomplete overview of existing metabarcoding pipelines
