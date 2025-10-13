@@ -55,7 +55,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Tele02`|**F:** Tele02-F <br> **R:** Tele02-R|AAACTCGTGCCAGCCACC <br> CCACCGACCGTGCTCAAA|GTTTGACCCTAATCTATGGG <br> GGGTATCTAATCCCAGTTTG|12S|Fishes/vertebrates|129-209|Taberlet et al. (2018), Thomsen et al. (2016)|F-primer first described as "V05F_898" from Thomsen et al. (2016).|
 
 ### Table 2: An overview of frequently used reference databases
-|Database|Target&nbsp;group|Website/download&nbsp;link|Marker(s)|Known&nbsp;deficiencies|Last&nbsp;updated|Licence&nbsp;type|Coverage&nbsp;(Regions)|Notes|
+|Database|Target&nbsp;group|Website/download&nbsp;link|Marker(s)|Known&nbsp;deficiencies|Last&nbsp;updated|Licence&nbsp;type|Coverage&nbsp;(Regions)|Additional&nbsp;usage&nbsp;notes&nbsp;and&nbsp;other&nbsp;relevant&nbsp;information|
 |--------|-----------------|--------------------------|---------|------------|-----------------|-----------------|----------------------------|-----|
 |`BOLD`|Animals, plants, fungi|https://boldsystems.org/|COI, rbcL, matK, ITS, 18S, 12S|Lack of prokaryotes. Taxonomic backbone different to other databases. Needs curation.|Frequent updates|Open/Restricted|Worldwide|Widely used database for species-level identification in DNA barcoding|
 |`CRABS_NordicRefDBs`|||||||||
@@ -77,16 +77,16 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`PDB`|||||||||
 |`Pfam`|||||||||
 |`Phytozome`|||||||||
-|`PR2`|||||||||
-|`RDP`|||||||||
+|`PR2`|Protists|https://pr2-database.org/|18S||2025-04-02|MIT License||Worldwide||
+|`RDP`|Bacteria, Archaea, Fungi||16S, 28S||||Worldwide|Focused on ribosomal RNA sequences, ideal for microbial metabarcoding.|
 |`Silva`|Microbes, eukaryotes|https://www.arb-silva.de/|16S, 18S, 23S, 28S|Taxonomic inconsistencies, biases toward well-studied organisms, sequence quality issues|2024-07-11|Create Commons Attribution 4.0 (CC-BY 4.0)|Worldwide|A comprehensive online resource for quality checked and aligned ribosomal RNA sequence data|
 |`TARA Oceans`|||||||||
-|`UNITE`|Fungi|https://unite.ut.ee/|ITS|Limited to fungal taxa|Specialized for fungal ITS sequences|2025-06-17|Open|Fungal taxa|
+|`UNITE`|Fungi|https://unite.ut.ee/|ITS|Limited to fungal taxa|2025-06-17|CC BY-NC-ND 4.0|Worldwide|Specialized for fungal ITS sequences|
 |`WormBase`|||||||||
 |`ZFIN`|||||||||
 
 ### Table 3: An alphabetically ordered, incomplete overview of existing metabarcoding pipelines
-|Pipeline|Primary software used|Language|Clustering|Link|Notes|
+|Pipeline|Primary software used|Language|Clustering|Link|Additional&nbsp;usage&nbsp;notes&nbsp;and&nbsp;other&nbsp;relevant&nbsp;information|
 |-----------|------------|--------------------------------------|------|------------|------------------|
 |`AMPtk`||||https://github.com/nextgenusfs/amptk/||
 |`Anacapa`||||https://github.com/limey-bean/Anacapa/||
