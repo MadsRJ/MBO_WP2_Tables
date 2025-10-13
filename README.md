@@ -77,7 +77,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`PDB`|||||||||
 |`Pfam`|||||||||
 |`Phytozome`|||||||||
-|`PR2`|Protists|https://pr2-database.org/|18S||2025-04-02|MIT License||Worldwide||
+|`PR2`|Protists|https://pr2-database.org/|18S||2025-04-02|MIT License|Worldwide||
 |`RDP`|Bacteria, Archaea, Fungi||16S, 28S||||Worldwide|Focused on ribosomal RNA sequences, ideal for microbial metabarcoding.|
 |`Silva`|Microbes, eukaryotes|https://www.arb-silva.de/|16S, 18S, 23S, 28S|Taxonomic inconsistencies, biases toward well-studied organisms, sequence quality issues|2024-07-11|Create Commons Attribution 4.0 (CC-BY 4.0)|Worldwide|A comprehensive online resource for quality checked and aligned ribosomal RNA sequence data|
 |`TARA Oceans`|||||||||
