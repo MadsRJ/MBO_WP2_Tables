@@ -49,9 +49,9 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Poly01`|**F:** Poly01-F <br> **R:** Poly01-R|CCGGTYTGAACTCAGMTCA <br> ACTMGACTCAAGTYTGGCC|TGGCACCTCGATGTTGGCT <br> TCGGTTGTAGCTCCACGGT|16S|Polychaetes|~63|Taberlet et al. (2018)||
 |`Riaz1`|**F:** F1 <br> **R:** R1|ACTGGGATTAGATACCCC <br> CCCCATAGATTAGGGTCA|TAGAACAGGCTCCTCTAG <br> GATCTCCTCGGACAAGAT|12S|Vertebrates|~106|Riaz et al. (2011)||
 |`Riaz2 (12S-V5)`|**F:** 12S-V5-F <br> **R:** 12S-V5-R|TAGAACAGGCTCCTCTAG <br> GATCTCCTCCGACAAAGT|TTAGATACCCCACTATGC <br> GCATAGTGGGGTATCTAA|12S|Vertebrates|~97|Riaz et al. (2011)||
-|`Sper01` **CHECK**|**F:** Sper01-F - **CHECK** <br> **R:** Sper01-R - **CHECK**|GGGCAATCCTGAGCCAA <br> AACCGAGTCCTAACGGG|CCATTGAGTCTCTGCACCTATC <br> CTATCCACGTCTCTGAGTTACC|trnL, P6 loop|Spermatophyta (seed plants)|~48|Taberlet et al. (2007)|Widely used for degraded material due to the short length.|
+|`Sper01`|**F:** g-A49425 (Sper01-F) <br> **R:** h-B49466 (Sper01-R)|GGGCAATCCTGAGCCAA <br> AACCGAGTCCTAACGGG|CCATTGAGTCTCTGCACCTATC <br> CTATCCACGTCTCTGAGTTACC|trnL, P6 loop|Spermatophyta (seed plants)|~48|Taberlet et al. (2007)|Widely used for degraded material due to the short length.|
 |`Stoeck`|**F:** TAReuk454FWD1 (V4F) <br> **R:** TAReukREV3 (V4R)|CCAGCASCYGCGGTAATTCC <br> CCTTAATGGCGYCSACGACC|ACTTTCGTTCTTGATYRA <br> ARYTAGTTCTTGCTTTCA|18S (V4)|Eukaryotes|~380|Stoeck et al. (2010)||
-|`Tele01`|**F:** dsa - **CHECK** <br> **R:** dsa - **CHECK**|ACACCGCCCGTCACTCT <br> TCTCACTGCCCGCCACA|CTTCCGGTACACTTACCATG <br> GTACCATTCACATGGCCTTC|12S|Teleostei|~64|Valentini et al. (2016)|Poor resolution for Cyprinidae and Gadidae.|
+|`Tele01`|**F:** teleo_F <br> **R:** teleo_R|ACACCGCCCGTCACTCT <br> TCTCACTGCCCGCCACA|CTTCCGGTACACTTACCATG <br> GTACCATTCACATGGCCTTC|12S|Teleostei|~64|Valentini et al. (2016)|Poor resolution for Cyprinidae and Gadidae.|
 |`Tele02`|**F:** Tele02-F <br> **R:** Tele02-R|AAACTCGTGCCAGCCACC <br> CCACCGACCGTGCTCAAA|GTTTGACCCTAATCTATGGG <br> GGGTATCTAATCCCAGTTTG|12S|Fishes/vertebrates|129-209|Taberlet et al. (2018), Thomsen et al. (2016)|F-primer first described as "V05F_898" from Thomsen et al. (2016).|
 
 ### Table 2: An overview of frequently used reference databases
@@ -81,7 +81,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`RDP`|||||||||
 |`Silva`|||||||||
 |`TARA Oceans`|||||||||
-|`UNITE`|Fungi|https://unite.ut.ee/|ITS|Limited to fungal taxa|Specialized for fungal ITS sequences|YYYY-MM-DD - **CHECK**|Open|Fungal taxa|
+|`UNITE`|Fungi|https://unite.ut.ee/|ITS|Limited to fungal taxa|Specialized for fungal ITS sequences|2025-06-17|Open|Fungal taxa|
 |`WormBase`|||||||||
 |`ZFIN`|||||||||
 
