@@ -88,45 +88,45 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 ### Table 3: An alphabetically ordered, incomplete overview of existing metabarcoding pipelines
 |Pipeline|Primary software used|Language|Clustering|Link|Notes|
 |-----------|------------|--------------------------------------|------|------------|------------------|
-|`AMPtk`||||||
+|`AMPtk`||||https://github.com/nextgenusfs/amptk/||
 |`Anacapa`||||https://github.com/limey-bean/Anacapa/||
-|`APSCALE`||||||
+|`APSCALE`||||https://github.com/DominikBuchner/apscale/||
 |`Banzai`||||https://github.com/jimmyodonnell/banzai/||
 |`Barque`||||https://github.com/enormandeau/barque/||
-|`BIOCOM-PIPE`||||||
-|`Cascabel`||||||
-|`CoMA`||||||
+|`BIOCOM-PIPE`||||https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe||
+|`Cascabel`||||https://github.com/AlejandroAb/CASCABEL/||
+|`CoMA3`||||https://github.com/SebH87/CoMA3/||
 |`DADA2`||||https://benjjneb.github.io/dada2/tutorial.html||
-|`Dadaist2`||||||
-|`dadasnake`||||||
+|`Dadaist2`||||https://github.com/quadram-institute-bioscience/dadaist2/||
+|`dadasnake`||||https://github.com/a-h-b/dadasnake/||
 |`DAnIEL`||||||
 |`eDNAflow`||||https://github.com/mahsa-mousavi/eDNAFlow/||
-|`FROGS`||||||
-|`gDAT`||||||
-|`JAMP`||||||
-|`LotuS2`||||||
+|`FROGS`||||https://frogs.toulouse.inra.fr/||
+|`gDAT`||||https://github.com/ut-planteco/gDAT/||
+|`JAMP`||||https://github.com/VascoElbrecht/JAMP/||
+|`LotuS2`||||https://github.com/hildebra/lotus2/||
 |`MetaBarFlow`||||https://github.com/evaegelyng/MetaBarFlow/||
 |`MetaWorks`||||https://github.com/terrimporter/MetaWorks/||
 |`MetaWorksSite`||||https://terrimporter.github.io/MetaWorksSite/||
 |`MiFish`||||https://mitofish.aori.u-tokyo.ac.jp/mifish/||
-|`MICCA`||||||
+|`MICCA`||||https://github.com/compmetagen/micca/||
 |`MJOLNIR`||||https://github.com/uit-metabarcoding/MJOLNIR/||
-|`mothur`||||||
-|`NextITS`||||||
+|`mothur`||||https://github.com/mothur/mothur/||
+|`NextITS`||||https://github.com/vmikk/NextITS/||
 |`nfcore/ampliseq`||||https://nf-co.re/ampliseq/2.9.0/||
-|`OBITools3`||||||
+|`OBITools4`||||https://github.com/metabarcoding/obitools4/||
 |`PacMan`||||https://github.com/iobis/PacMAN-pipeline/||
 |`PEMA`||||https://github.com/hariszaf/pema/||
-|`PipeCraft2`||||||
-|`PIPITS`||||||
-|`QIIME 2`||||||
-|`SCATA`||||||
+|`PipeCraft2`||||https://github.com/pipecraft2/pipecraft/||
+|`PIPITS`||||https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12399/||
+|`QIIME 2`||||https://qiime2.org/ & https://github.com/qiime2/qiime2||
+|`SCATA`||||https://scata.mykopat.slu.se/ & https://github.com/mikdur/scata||
 |`Seed2`||||https://www.biomed.cas.cz/mbu/lbwrf/seed/||
 |`Slim`||||https://trtcrd.github.io/SLIM/||
-|`Tourmaline`||||||
-|`USEARCH`||||||
-|`VSEARCH`||||||
-|`VTAM`||||||
+|`Tourmaline`||||https://github.com/aomlomics/tourmaline/||
+|`USEARCH`||||https://cryptick-lab.github.io/NGS-Analysis/_site/usearch-v11.html||
+|`VSEARCH`||||https://github.com/torognes/vsearch/||
+|`VTAM`||||https://www.sciencedirect.com/science/article/pii/S200103702300034X/ & https://vtam.readthedocs.io/en/stable/content/overview.html||
 
 ## Acknowledgements
 This repository was created under the framework of the EU-project [MARCO-BOLO](https://marcobolo-project.eu/). The MARCO-BOLO project is funded by the European Union under the Horizon Europe Programme, Grant Agreement No. 101082021 (MARCO-BOLO). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency (REA). Neither the European Union nor the granting authority can be held responsible for them. UK participants in MARCO-BOLO are supported by the UKRI’s Horizon Europe Guarantee under the Grant No. 10068180 (MS); No. 10063994 (MBA); No. 10048178 (NOC).
