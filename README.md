@@ -79,7 +79,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Phytozome`|||||||||
 |`PR2`|||||||||
 |`RDP`|||||||||
-|`Silva`|||||||||
+|`Silva`|Microbes, eukaryotes|https://www.arb-silva.de/|16S, 18S, 23S, 28S|Taxonomic inconsistencies, biases toward well-studied organisms, sequence quality issues|2024-07-11|Create Commons Attribution 4.0 (CC-BY 4.0)|Worldwide|A comprehensive online resource for quality checked and aligned ribosomal RNA sequence data|
 |`TARA Oceans`|||||||||
 |`UNITE`|Fungi|https://unite.ut.ee/|ITS|Limited to fungal taxa|Specialized for fungal ITS sequences|2025-06-17|Open|Fungal taxa|
 |`WormBase`|||||||||
