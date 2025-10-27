@@ -75,8 +75,8 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`KEGG`|||||||||
 |`MetaPhlAn`|||||||||
 |`MIDORI2`|Eukaryotes|https://www.reference-midori.info/|Many markers|No prokaryotes included|Updates occur with every GenBank update|CC BY-NC 4.0|Worldwide|MIDORI2 comes in two curated versions, either with or without binomial species descriptions, such as "cf.," "aff.," and "sp."|
-|`NCBI nr`|General|Any|||||Data is shared freely among DDBJ, NCBI, and ENA|Comprehensive non-redundant version of NCBI nt|
-|`NCBI nt`|General|Any|||||Data is shared freely among DDBJ, NCBI, and ENA|Comprehensive but includes uncurated and redundant sequences|
+|`NCBI nr`|General||Any||||Data is shared freely among DDBJ, NCBI, and ENA|Comprehensive non-redundant version of NCBI nt|
+|`NCBI nt`|General||Any||||Data is shared freely among DDBJ, NCBI, and ENA|Comprehensive but includes uncurated and redundant sequences|
 |`NCBI RefSeq`|||||||Data is shared freely among DDBJ, NCBI, and ENA||
 |`PDB`||||||||Critical for structural biology and protein studies.|
 |`Pfam`|Protein families|http://pfam.xfam.org/ & https://academic.oup.com/nar/article/49/D1/D412/5943818?login=true & https://www.ebi.ac.uk/interpro/|Protein sequences||2025-06-19|Creative Commons Zero (“CC0”) licence.|Worldwide|Essential for functional genomics and pathway analysis. Critical for structural biology and protein studies.|
