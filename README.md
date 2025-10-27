@@ -61,31 +61,30 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |Database|Target&nbsp;group|Website/download&nbsp;link|Marker(s)|Known&nbsp;deficiencies|Last&nbsp;updated|Licence&nbsp;type|Coverage&nbsp;(Regions)|Additional&nbsp;usage&nbsp;notes&nbsp;and&nbsp;other&nbsp;relevant&nbsp;information|
 |--------|-----------------|--------------------------|---------|------------|-----------------|-----------------|----------------------------|-----|
 |`BOLD`|Animals, plants, fungi|https://boldsystems.org/|COI, rbcL, matK, ITS, 18S, 12S|Lack of prokaryotes. Taxonomic backbone different to other databases. Needs curation.|Frequent updates|Open/Restricted|Worldwide|Widely used database for species-level identification in DNA barcoding|
-|`CRABS_NordicRefDBs`|||||||||
-|`DDBJ`||||||Data is shared freely among DDBJ, NCBI, and ENA|Worldwide|DNA DataBank of Japan|
-|`EMBL`|||||||||
-|`ENA`|||||||Data is shared freely among DDBJ, NCBI, and ENA||
-|`ENSEMBL`|||||||||
-|`FlyBase`|||||||CC BY 4.0||
-|`GOLD`|||||||Open|Genomes OnLine Database|
-|`GreenGenes2`|Microbes|https://github.com/biocore/greengenes2/ & https://mothur.org/wiki/greengenes2-formatted_databases/|16S||2022-10-xx|BSD 2-Clause License, but with a 3rd clause that prohibits others from using the name of the copyright holder or its contributors to promote derived products without written consent.|Worldwide|Outdated but still used in some microbial studies|
-|`GTDB`|||||||||
-|`HMP`|||||||||
-|`IMG`|||||||||
-|`KEGG`|||||||||
-|`MetaPhlAn`|||||||||
-|`MIDORI2`|Eukaryotes|https://www.reference-midori.info/|Many markers|No prokaryotes included|Updates occur with every GenBank update|CC BY-NC 4.0|Worldwide|MIDORI2 comes in two curated versions, either with or without binomial species descriptions, such as "cf.," "aff.," and "sp."|
-|`NCBI nr`|General||Any||||Data is shared freely among DDBJ, NCBI, and ENA|Comprehensive non-redundant version of NCBI nt|
-|`NCBI nt`|General||Any||||Data is shared freely among DDBJ, NCBI, and ENA|Comprehensive but includes uncurated and redundant sequences|
-|`NCBI RefSeq`|||||||Data is shared freely among DDBJ, NCBI, and ENA||
-|`PDB`||||||||Critical for structural biology and protein studies.|
-|`Pfam`|Protein families|http://pfam.xfam.org/ & https://academic.oup.com/nar/article/49/D1/D412/5943818?login=true & https://www.ebi.ac.uk/interpro/|Protein sequences||2025-06-19|Creative Commons Zero (“CC0”) licence.|Worldwide|Essential for functional genomics and pathway analysis. Critical for structural biology and protein studies.|
+|`CRABS_NordicRefDBs`|Nordic&nbsp;Marine&nbsp;eDNA|https://github.com/MadsRJ/CRABS_NordicRefDBs|COI, 12S|Regional scope; under development|2025 (beta)|CC&nbsp;BY&nbsp;4.0|Nordic Seas|Regional curated database initiative combining Nordic efforts (e.g. UiT, NCBI, BOLD, MARCO-BOLO, CRABS).|
+|`DDBJ`|General|https://www.ddbj.nig.ac.jp/services/index-e.html?tag=database|All|Mirrors NCBI and ENA; metadata in Japanese|Continuous|Data is shared freely among DDBJ, NCBI, and ENA|Worldwide|DNA DataBank of Japan — part of the International Nucleotide Sequence Database Collaboration (INSDC).|
+|`ENA(formerly EMBL)`|General|https://www.ebi.ac.uk/ena/browser/home|All|Low curation and heterogeneous metadata across submissions; sequences include both validated and unverified entries.|Continuous|Data is shared freely among DDBJ, NCBI, and ENA|Worldwide|European Nucleotide Archive; part of INSDC.|
+|`ENSEMBL`|Eukaryotic&nbsp;genomes|https://ensembl.org/|Genomic|Focus on model and medically relevant organisms|Continuous|CC&nbsp;BY&nbsp;4.0|Worldwide|Genome browser integrating multiple assemblies and annotations.|
+|`FlyBase`|Insects, *Drosophila* spp.|https://flybase.org/|Genomic and transcriptomic|Focused on model *Drosophila* species; not representative of insect diversity|Continuous|CC&nbsp;BY&nbsp;4.0|Worldwide (model species)|Comprehensive curated source for *Drosophila* genomics; mainly relevant for model-organism studies rather than environmental surveys|
+|`GOLD`|Microbes (genomes, metagenomes)|https://gold.jgi.doe.gov/|Genomic, metagenomic|Metadata quality depends on submitter; limited marker-level annotation|Continuous|Open|Worldwide|Genomes OnLine Database—metadata registry for microbial genomes and metagenomes; often used to track projects integrated into IMG|
+|`GreenGenes2`|Bacteria, Archaea|https://ftp.microbio.me/greengenes_release/current/|16S&nbsp;rRNA|Superseded by SILVA/GTDB; limited recent updates; partial taxonomy inconsistencies|2024-09-xx|BSD 2-Clause License, but with a 3rd clause that prohibits others from using the name of the copyright holder or its contributors to promote derived products without written consent.|Worldwide|Outdated but still used in some microbial studies|
+|`GTDB`|Bacteria, Archaea|https://gtdb.ecogenomic.org/|16S, genomes|Only prokaryotes; taxonomy differs from NCBI|2025-04-16|CC&nbsp;BY&nbsp;4.0|Worldwide|Widely used for standardized bacterial and archaeal taxonomy.|
+|`HMP`|Human microbiome|https://microbiomedb.org/mbio/app|16S, WGS|Limited to human-associated microbiomes; not applicable to environmental or non-human samples; and not updated on a regular basis|2024-05-07|CC&nbsp;BY&nbsp;4.0|Worldwide|Human Microbiome Project reference set.|
+|`IMG`|Microbes (genomes, metagenomes, metatranscriptomes)|https://img.jgi.doe.gov/|Whole&nbsp;genomes,&nbsp;16S,&nbsp;functional&nbsp;genes|Annotation and taxonomy depend on submitter metadata; not optimized for marker-gene metabarcoding workflows|Continuous|DOE&nbsp;Data&nbsp;Policy&nbsp;(open&nbsp;for&nbsp;publicly&nbsp;released&nbsp;datasets)|Worldwide|Integrated Microbial Genomes (IMG) system maintained by JGI; provides analysis tools for genome, metagenome, and metatranscriptome datasets; linked to GOLD for project metadata|
+|`KEGG`|General (functional genes, pathways)|https://www.genome.jp/kegg/|Functional&nbsp;genes|Primarily pathway-focused; limited taxonomic coverage and sequence-level annotation|Continuous|CC&nbsp;BY-NC&nbsp;4.0|Worldwide|Kyoto Encyclopedia of Genes and Genomes; integrates genomic and metabolic information for pathway and functional analyses|
+|`MetaPhlAn`|Microbiomes (taxonomic profiling)|https://huttenhower.sph.harvard.edu/metaphlan/|Marker&nbsp;genes|Primarily human-associated; not suitable for general environmental communities|2023-11-10|CC&nbsp;BY&nbsp;4.0|Worldwide|Database of unique clade-specific marker genes used by MetaPhlAn for taxonomic profiling of microbial communities|
+|`MIDORI2`|Eukaryotes|https://www.reference-midori.info/|Many markers|No prokaryotes included|Updates occur with every GenBank update|CC&nbsp;BY&nbsp;4.0|Worldwide|MIDORI2 comes in two curated versions, either with or without binomial species descriptions, such as "cf.," "aff.," and "sp."|
+|`NCBI nr`|General|https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/|Any|Low curation and heterogeneous metadata across submissions; sequences include both validated and unverified entries.|Continuous|Data is shared freely among DDBJ, NCBI, and ENA|Worldwide|Comprehensive non-redundant version of NCBI nt|
+|`NCBI nt`|General|https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/|Any|Low curation and heterogeneous metadata across submissions; sequences include both validated and unverified entries.|Continuous|Data is shared freely among DDBJ, NCBI, and ENA|Worldwide|Comprehensive but includes uncurated and redundant sequences|
+|`NCBI RefSeq`|Curated representative taxa|https://ftp.ncbi.nlm.nih.gov/refseq/|Full genomes and individual gene sequences (including common barcoding markers).|Continuous|Open|Worldwide|Data is shared freely among DDBJ, NCBI, and ENA|Curated, non-redundant subset of INSDC sequences; standardized annotations for reference genomes|
+|`PDB`|Proteins, macromolecular structures|https://www.rcsb.org/|Protein structures|Limited nucleotide data; experimental bias toward crystallizable proteins|Continuous|CC0|Worldwide|Protein Data Bank—key archive for experimentally determined 3D structures; relevant for structural bioinformatics|
+|`Pfam`|Protein&nbsp;families|[http://pfam.xfam.org/](http://pfam.xfam.org/)|Protein sequences (domains)|Functional, not taxonomic focus; limited marker-level application|2025-06-19|CC0|Worldwide|Curated collection of protein domains and families; used for functional and phylogenetic annotation|
 |`Phytozome`|Plants|https://phytozome-next.jgi.doe.gov/ & https://academic.oup.com/nar/article/40/D1/D1178/2903577?login=true|Genomes||Continuously|Creative Commons Attribution 4.0 International License|Worldwide|Relevant if exploring nuclear plant markers, otherwise not|
 |`PR2`|Protists|https://pr2-database.org/|18S||2025-04-02|MIT License|Worldwide|Specialized and curated for protist ribosomal sequences|
 |`RDP`|Bacteria, Archaea, Fungi||16S, 28S||||Worldwide|Focused on ribosomal RNA sequences, ideal for microbial metabarcoding.|
-|`Silva`|Microbes, eukaryotes|https://www.arb-silva.de/|16S, 18S, 23S, 28S|Taxonomic inconsistencies, biases toward well-studied organisms, sequence quality issues|2024-07-11|Create Commons Attribution 4.0 (CC-BY 4.0)|Worldwide|A comprehensive online resource for quality checked and aligned ribosomal RNA sequence data|
-|`TARA Oceans`|||||||||
-|`UNITE`|Fungi|https://unite.ut.ee/|ITS|Limited to fungal taxa|2025-06-17|CC BY-NC-ND 4.0|Worldwide|Specialized for fungal ITS sequences|
+|`Silva`|Microbes, eukaryotes|https://www.arb-silva.de/|16S, 18S, 23S, 28S|Taxonomic inconsistencies, biases toward well-studied organisms, sequence quality issues|2024-07-11|CC&nbsp;BY&nbsp;4.0|Worldwide|A comprehensive online resource for quality checked and aligned ribosomal RNA sequence data|
+|`TARA&nbsp;Oceans`|Marine microbes, plankton|https://www.ocean-microbiome.org/|16S,&nbsp;18S,&nbsp;metagenomic&nbsp;markers&nbsp;genetic&nbsp;and&nbsp;functional profiles|Ocean-focused; uneven coverage across depth zones and taxa|2019-11-12|Open|Global&nbsp;ocean|TARA Oceans reference dataset integrates global planktonic metagenomes and marker genes; foundational for marine microbiome studies|
+|`UNITE`|Fungi|https://unite.ut.ee/|ITS|Limited to fungal taxa|2025-06-17|CC0|Worldwide|Specialized for fungal ITS sequences|
 |`WormBase`|*C. elegans* and related nematodes|https://www.alliancegenome.org/members/wormbase|||||||
 |`ZFIN`|*Danio rerio* (zebrafish)|https://zfin.org/|Genomic|||Creative Commons Attribution 4.0 International License|Zebrafish are native to South Asia, but sold worldwide in aquarium trade|Only relevant for studies of the model organism zebrafish|
 
