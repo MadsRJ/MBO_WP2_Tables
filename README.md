@@ -17,6 +17,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Balzano`|**F:** TAReuk454FWD1 (V4F) <br> **R:** V4RB|CCAGCASCYGCGGTAATTCC <br> CCTTAATGGCGYCSACGACC|ACTTTCGTTCTTGATYRR <br> RRYTAGTTCTTGCTTTCA|18S (V4)|Eukaryotes|~380|Stoeck et al. (2010), Balzano et al. (2015)||
 |`Banos`|**F:** nu-SSU-1333-5′ (FF390) <br> **R:** nu-SSU-1647-3′ (FR-1)|CGATAACGAACGAGACCT <br> TCCAGAGCAAGCAATAGC|AICCATTCAATCGGTAIT <br> TIATGGCTAACTTACCIA|18S (V7-V8)|Fungi|~348|Banos et al. (2018)|Note that “I” (inosine) often gets replaced with “N” for bioinformatic software to recognize the wobble-base.|
 |`Batr01`|**F:** batra_F <br> **R:** batra_R|ACACCGCCCGTCACCCT <br> TCCCACTGCCCGCCACA|GTAYACTTACCATGTTACGACTT <br> TTCAGCATTGTACCATTCAYATG|12S|Batrachia (frogs and salamanders)|~51|Valentini et al. (2016)||
+|**CHECK**`Berry 16S-Fish`|**F:** Fish16sF/D <br> **R:** 16s2R (degenerate)|GACCCTATGGAGCTTTAGAC <br> CAGATTTCGAGGTATCCCAG|CGCTGTTATCCCTADRGTAACT <br> TCAATGRDATCCCTATTGTCGC|16S|Fishes|~200|Berry et al. (2017), Deagle et al. (2007)||
 |`BF1/BR1`|**F:** BF1 <br> **R:** BR1|ACWGGWTGRACWGTNTAYCC <br> CCYATNTGWCARGTWGGWCA|ARYATDGTRATDGCHCCDGC <br> CGDCCHCGDTARTGDTAYRA|COI|Macroinvertebrates|217|Elbrecht & Leese (2017)|Designed for mock communities, so co-amplifies a lot of undesired taxa when applied to eDNA samples.|
 |`Bryo01`|**F:** bryo_P6F <br> **R:**  Bryo01-R|GATTCAGGGAAACTTAGGTTG <br> GTTGGATTCAAAGGGACTTAG|CCATYGAGTCTCTGCACC <br> CCACGTCTCTGAGYTACC|trnL|Bryophyta|~53|Epp et al. (2012), Taberlet et al. (2018)|One degenerated bp in reverse primer compared to Epp et al. (2012).|
 |`Caporaso`|**F:** F515 <br> **R:** R806|GTGCCAGCMGCCGCGGTAA <br> AATGGCGCCGMCGACCGTG|GGACTACHVGGGTWTCTAAT <br> TAATCTWTGGGVHCATCAGG|16S|Bacteria|~253|Baker et al. (2003), Caporaso et al. (2011)||
@@ -31,6 +32,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Euk1391f-EukBr`|**F:** Euk1391f <br> **R:** EukBr|GTACACACCGCCCGTC <br> CTGCCCGCCACACATG|TGATCCTTCTGCAGGTTCACCTAC <br> CATCCACTTGGACGTCTTCCTAGT|18S (V9)|Eukaryotes|~128|Amaral-Zettler et al. (2009), Stoeck et al. (2010), https://earthmicrobiome.org/protocols-and-standards/18s/|Highly specific of eukaryotes. Used by Earth Microbiome Project. The reverse primer is not optimal. Described as “Euka04” in Taberlet et al. (2018).|
 |`Fung01`|**F:** ITS5 <br> **R:** Fung01-R|GGAAGTAAAAGTCGTAACAAGG <br> GGAACAATGCTGAAAATGAAGG|CCAAGAGATCCGTTGYTGAAAGT <br> TGAAAGTYGTTGCCTAGAGAACC|ITS1|Fungi|~226|Epp et al. (2012)|Does not properly amplify Glomeromycota. Highly variable fragment length for some fungi (Taberlet et al. 2018). Reverse primer appears inspired from Epp et al. (2012), but is not identical to "5.8S_fungi" (CAAGAGATCCGTTGTTGAAAGTT)|
 |`Fung02`|**F:** ITS5 <br> **R:** Fung02-R|GGAAGTAAAAGTCGTAACAAGG <br> GGAACAATGCTGAAAATGAAGG|CAAGAGATCCGTTGYTGAAAGTK <br> KTGAAAGTYGTTGCCTAGAGAAC|ITS1|Fungi|~225|Epp et al. (2012), Taberlet et al. (2018)|Modified version of Epp et al (2012)’s reverse primer to properly amplify Glomeromycota. Highly variable fragment length for some fungi (Taberlet et al. 2018).|
+|`Hadziavdic 18S`|**F:** F-566 <br> **R:** R-1200|CAGCAGCCGCGGTAATTCC <br> CCTTAATGGCGCCGACGAC|CCCGTGTTGAGTCAAATTAAGC <br> CGAATTAAACTGAGTTGTGCCC|18S (V4-V5)|Eukaryotes|~654|Hadziavdic et al., 2014||
 |`Inse01`|**F:** Inse01-F <br> **R:** Inse01-R|RGACGAGAAGACCCTATARA <br> ARATATCCCAGAAGAGCAGR|ACGCTGTTATCCCTAARGTA <br> ATGRAATCCCTATTGTCGCA|16S|Insecta|~155|Taberlet et al. (2018)|Close to the Clarke et al. (2014) primers.|
 |`Isop01`|**F:** Isop01-F <br> **R:** Isop01-R|ATTTCAGGTCAAGGTGCAGCTT <br> TTCGACGTGGAACTGGACTTTA|ATTACAACCAAATCCAATTTCA <br> ACTTTAACCTAAACCAACATTA|12S|Isoptera (termites)|~66|Taberlet et al. (2018)||
 |`Leray`|**F:** mlCOIintF <br> **R:** jgHCO2198|GGWACWGGWTGAACWGTWTAYCCYCC <br> CCYCCYATWTGWCAAGTWGGWCAWGG|TAIACYTCIGGRTGICCRAARAAYCA <br> ACYAARAARCCIGTRGGICTYCAIAT|COI|Metazoans|313|Leray et al. (2013), Geller et al. (2013)|Note that “I” (inosine) often gets replaced with “N” for bioinformatic software to recognize the wobble-base.|
@@ -46,6 +48,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`MiFish-E`|**F:** MiFish-E-F <br> **R:** MiFish-E-R|GTTGGTAAATCTCGTGCCAGC <br> CGACCGTGCTCTAAATGGTTG|CATAGTGGGGTATCTAATCCTAGTTTG <br> GTTTGATCCTAATCTATGGGGTGATAC|12S|Fishes/vertebrates|170–185|Miya et al. (2015)|Elasmobranch-optimized.|
 |`MiFish-U`|**F:** MiFish-U-F <br> **R:** MiFish-U-R|GTCGGTAAAACTCGTGCCAGC <br> CGACCGTGCTCAAAATGGCTG|CATAGTGGGGTATCTAATCCCAGTTTG <br> GTTTGACCCTAATCTATGGGGTGATAC|12S|Fishes/vertebrates|163–185|Miya et al. (2015)|Universal version.|
 |`MiFish-U (UiT mod.)`|**F:** MiFish-U-F (UiT mod.) <br> **R:** MiFish-U-R|GCCGGTAAAACTCGTGCCAGC <br> CGACCGTGCTCAAAATGGCCG|CATAGTGGGGTATCTAATCCCAGTTTG <br> GTTTGACCCTAATCTATGGGGTGATAC|12S|Fishes/vertebrates|163–185|Miya et al. (2015), Sales et al. (2019)|Note that the second base in the F primer has been replaced compared to the original.|
+|`Parada`|**F:** 1389 F <br> **R:** 1510 R|TTGTACACACCGCCC <br> CCCGCCACACATGTT|CCTTCYGCAGGTTCACCTAC <br> CATCCACTTGGACGCTTCC|16S(V4-V5)/18S(V4)|Universal|~180|Parada et al. (2016)||
 |`Poly01`|**F:** Poly01-F <br> **R:** Poly01-R|CCGGTYTGAACTCAGMTCA <br> ACTMGACTCAAGTYTGGCC|TGGCACCTCGATGTTGGCT <br> TCGGTTGTAGCTCCACGGT|16S|Polychaetes|~63|Taberlet et al. (2018)||
 |`Riaz1`|**F:** F1 <br> **R:** R1|ACTGGGATTAGATACCCC <br> CCCCATAGATTAGGGTCA|TAGAACAGGCTCCTCTAG <br> GATCTCCTCGGACAAGAT|12S|Vertebrates|~106|Riaz et al. (2011)||
 |`Riaz2 (12S-V5)`|**F:** 12S-V5-F <br> **R:** 12S-V5-R|TAGAACAGGCTCCTCTAG <br> GATCTCCTCCGACAAAGT|TTAGATACCCCACTATGC <br> GCATAGTGGGGTATCTAA|12S|Vertebrates|~97|Riaz et al. (2011)||
@@ -144,9 +147,13 @@ Balzano, S., Abs, E., Leterme, S. C. (2015). Protist diversity along a salinity 
 
 Banos, S., Lentendu, G., Kopf, A., Wubet, T., Glöckner, F. O., Reich, M. (2018). A comprehensive fungi-specific 18S rRNA gene sequence primer toolkit suited for diverse research issues and sequencing platforms. BMC Microbiol 18, 190. https://doi.org/10.1186/s12866-018-1331-4.
 
+Berry, T. E., Osterrieder, S. K., Murray, D. C., Coghlan, M. L., Richardson, A. J., Grealy, A. K., Stat, M., Bejder, L., Bunce, M. (2017). DNA metabarcoding for diet analysis and biodiversity: A case study using the endangered Australian sea lion (*Neophoca cinerea*). Ecology and Evolution 7(14), 5435-5453. https://doi.org/10.1002/ece3.3123.
+
 Bienert, F. De Danieli, S., Miquel, C., Coissac, E., Poillot, C., Brun, J.-J., Taberlet, P. (2012). Tracking earthworm communities from soil DNA. Molecular Ecology 21(8), 2017-2030. https://doi.org/10.1111/j.1365-294X.2011.05407.x.
 
 Caporaso, J. G., Lauber, C. L., Walters, W. A., Berg-Lyons, D., Lozupone, C. A., Turnbaugh, P. J., Fierer, N., Knight, R. (2011). Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample. Proc. Natl. Acad. Sci. U.S.A. 108 (supplement_1), 4516-4522. https://doi.org/10.1073/pnas.1000080107.
+
+Deagle, B. E., Kirkwood, R., Jarman, S. N. (2007). Analysis of Australian fur seal diet by pyrosequencing prey DNA in faeces. Molecular Ecology 18(9), 2022-2038. https://doi.org/10.1111/j.1365-294X.2009.04158.x.
 
 Elbrecht, V. & Leese, F. (2017). Validation and development of COI metabarcoding primers for freshwater macroinvertebrate bioassessment. Frontiers in Environmental Science 5, 11. https://doi.org/10.3389/fenvs.2017.00011.
 
@@ -162,11 +169,15 @@ Giguet-Covex, C., Pansu, J., Arnaud, F., Rey, P.-J., Griggo, C., Gielly, L., Dom
 
 Guardiola, M., Uriz, M. J., Taberlet, P., Coissac, E., Wangensteen, O. S., & Turon, X. (2015). Deep-sea, deep-sequencing: Metabarcoding extracellular DNA from sediments of marine canyons. PLoS One 10(10), e0139633. https://doi.org/10.1371/journal.pone.0139633.
 
+Hadziavdic, K., Lekang, K., Lanzen, A., Jonassen, I., Thompson, E. M., Troedsson, C. (2014). Characterization of the 18S rRNA gene for designing universal eukaryote specific primers. PLoS ONE 9(2), e87624. https://doi.org/10.1371/journal.pone.0087624.
+
 Janssen, P., Bec, S., Fuhr, M., Taberlet, P., Brun, J.-J., Bouget, C. (2017). Present conditions may mediate the legacy effect of past land-use changes on species richness and composition of above- and below-ground assemblages. Journal of Ecology 106(1), 306-318. https://doi.org/10.1111/1365-2745.12808.
 
 Leray, M., Yang, J. Y., Meyer, C. P., Mills, S. C., Agudelo, N., Ranwez, V., Boehm, J. T., & Machida, R. J. (2013). A new versatile primer set targeting a short fragment of the mitochondrial COI region for metabarcoding metazoan diversity: application for characterizing coral reef fish gut contents. Frontiers in Zoology 10, 34. https://doi.org/10.1186/1742-9994-10-34.
 
 Miya, M., Sato, Y., Fukunaga, T., Sado, T., Poulsen, J. Y., Sato, K., Minamoto, T., Yamamoto, S., Yamanaka, H., Araki, H., Kondoh, M., & Iwasaki, W. (2015). MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: Detection of more than 230 subtropical marine species. Royal Society Open Science, 2(7), 150088. https://doi.org/10.1098/rsos.150088.
+
+Parada, A. E., Needham, D. M., Fuhrman, J. A. (2016). Every base matters: assessing small subunit rRNA primers for marine microbiomes with mock communities, time series and global field samples. Environmental Microbiology 18(5), 1403-1414. https://doi.org/10.1111/1462-2920.13023.
 
 Quince, C., Lanzen, A., Davenport, R. J., Turnbaugh, P. J. (2011). Removing noise from pyrosequenced amplicons. BMC Bioinformatics 12, 38. https://doi.org/10.1186/1471-2105-12-38.
 
