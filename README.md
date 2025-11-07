@@ -112,18 +112,17 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`JAMP`|https://github.com/VascoElbrecht/JAMP/|||||||||
 |`LotuS2`|https://github.com/hildebra/lotus2/|||||||||
 |`MetaBarFlow`|https://github.com/evaegelyng/MetaBarFlow/|Yes||||||||
-|`MetaWorks`|https://github.com/terrimporter/MetaWorks/|Yes||||||||
-|`MetaWorksSite`|https://terrimporter.github.io/MetaWorksSite/|||||||||
-|`MICCA`|https://github.com/compmetagen/micca/|||||||||
-|`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/|Yes||||||||
-|`minderoo`||Yes||||||||
+|`MetaWorks`|https://github.com/terrimporter/MetaWorks/|Yes| C++/Python/shell| COI/rbcL/ITS/SSU rRNA/12S SSU mtDNA|vsearch|ASV/OTU|Sequence composition|rdp|NA|
+|`MICCA`|https://github.com/compmetagen/micca/|No | Python|16S rRNA/ITS/18S/28S|other|OTU|Sequence composition/Sequence similarity |Blast/rdp||
+|`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/|Yes|Python|12S Mifish|other|OTU|Sequence similarity|blastn|NA|
+|`OceanOmics-amplicon-nf`|https://github.com/MinderooFoundation/OceanOmics-amplicon-nf |Yes|Nextflow/Python/Groovy/HTML|All|dada2|ASV|Sequence similarity|Blast|LCA|
 |`MJOLNIR`|https://github.com/uit-metabarcoding/MJOLNIR/|||||||||
 |`MLI`||Yes||||||||
 |`mothur`|https://github.com/mothur/mothur/|||||||||
-|`NextITS`|https://github.com/vmikk/NextITS/|||||||||
+|`NextITS`|https://github.com/vmikk/NextITS/|No|Nextflow/R/Shell|ITS|vsearch|OTU|Sequence similarity|SH-matcher|mumu|
 |`nfcore/ampliseq`|https://nf-co.re/ampliseq/2.9.0/|Yes||||||||
-|`OBITools4`|https://github.com/metabarcoding/obitools4/|Yes(CHECK)||||||||
-|`PacMan`|https://github.com/iobis/PacMAN-pipeline/|Yes||||||||
+|`OBITools4`|https://github.com/metabarcoding/obitools4/|No|Go/HTML/Shell/C/JavaScript|All|obiclean|ASV/OTU|Sequence similarity|obitag|LCA|
+|`PacMan`|https://github.com/iobis/PacMAN-pipeline/|Yes|Python/R|All|dada2|ASV|Sequence composition|rdp|LCA|
 |`PEMA`|https://github.com/hariszaf/pema/|||||||||
 |`PipeCraft2`|https://github.com/pipecraft2/pipecraft/|Yes||||||||
 |`PIPITS`|https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12399/|||||||||
