@@ -93,7 +93,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 
 
 |Pipeline|Link|Incl_Data_Challenge|Language|Relevant_marker|Error_rate_tool_&_denoising|ASV_OTU|Tax_assign_cat|Otu_seq_comp_appr|Tax_class_collapse|
-|--------|----|-------------------|--------|---------------|---------------|-------|--------------|-----------------|------------------|
+|--------|----|-------------------|--------|---------------|---------------------------|-------|--------------|-----------------|------------------|
 |`AMPtk`|https://github.com/nextgenusfs/amptk/|||||||||
 |`Anacapa`|https://github.com/limey-bean/Anacapa/|Yes|Python/Shell/R|All|DADA2|ASV|Other|bowtie2-blca|NA|
 |`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes|Python|CHECK|vsearch/DnoisE + LULU|ASV/OTU|Sequence similarity/Sequence composition|BOLDIGGER3/vsearch sintax|NA|
@@ -102,12 +102,12 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`BIOCOM-PIPE`|https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe|||||||||
 |`Cascabel`|https://github.com/AlejandroAb/CASCABEL/|Yes|Python/Java/R/Shell/Perl|CHECK|Other/DADA2|ASV/OTU|Sequence similarity/Sequence composition|vsearch/DADA2|LCA/NA|
 |`CoMA3`|https://github.com/SebH87/CoMA3/|||||||||
-|`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes||||||||
+|`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes|R|All|DADA2|ASV|Sequence similarity/Sequence composition|DADA2(CHECK)|CHECK|
 |`Dadaist2`|https://github.com/quadram-institute-bioscience/dadaist2/|||||||||
 |`dadasnake`|https://github.com/a-h-b/dadasnake/|||||||||
 |`DAnIEL`|https://github.com/bioinformatics-leibniz-hki/DAnIEL|||||||||
 |`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/|||||||||
-|`FROGS`|https://frogs.toulouse.inra.fr/|Yes(CHECK)||||||||
+|`FROGS`|https://frogs.toulouse.inra.fr/|Yes|HTML/Python/Shell/Other (Galaxy)|All|DADA2/Swarm|ASV/OTU|Sequence similarity|blastn|NA|
 |`gDAT`|https://github.com/ut-planteco/gDAT/|||||||||
 |`JAMP`|https://github.com/VascoElbrecht/JAMP/|||||||||
 |`LotuS2`|https://github.com/hildebra/lotus2/|||||||||
