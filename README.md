@@ -114,7 +114,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`MetaBarFlow`|https://github.com/evaegelyng/MetaBarFlow/|Yes||||||||
 |`MetaWorks`|https://github.com/terrimporter/MetaWorks/|Yes| C++/Python/shell| COI/rbcL/ITS/SSU rRNA/12S SSU mtDNA|vsearch|ASV/OTU|Sequence composition|rdp|NA|
 |`MICCA`|https://github.com/compmetagen/micca/|No | Python|16S rRNA/ITS/18S/28S|other|OTU|Sequence composition/Sequence similarity |Blast/rdp||
-|`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/|Yes|Python|12S Mifish|other|OTU|Sequence similarity|blastn|NA|
+|`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/|Yes|Python|12S Mifish|other|OTU|Sequence similarity|Blast|NA|
 |`OceanOmics-amplicon-nf`|https://github.com/MinderooFoundation/OceanOmics-amplicon-nf |Yes|Nextflow/Python/Groovy/HTML|All|dada2|ASV|Sequence similarity|Blast|LCA|
 |`MJOLNIR`|https://github.com/uit-metabarcoding/MJOLNIR/|||||||||
 |`MLI`||Yes||||||||
