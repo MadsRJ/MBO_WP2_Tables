@@ -95,7 +95,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |Pipeline|Link|Incl_Data_Challenge|Language|Relevant_marker|ReferenceDB|Error_rate_tool|ASV_OTU|Tax_assign_cat|Otu_seq_comp_appr|Tax_class_id_cutoff|Tax_class_evalue|Tax_class_query_cutoff|Tax_class_collapse|Screen_other|Screen_explanation|Additional_usage_notes|
 |--------|----|-------------------|--------|---------------|-----------|---------------|-------|--------------|-----------------|-------------------|----------------|----------------------|------------------|------------|------------------|----------------------|
 |`AMPtk`|https://github.com/nextgenusfs/amptk/||||||||||||||||
-|`Anacapa`|https://github.com/limey-bean/Anacapa/|Yes|||||||||||||||
+|`Anacapa`|https://github.com/limey-bean/Anacapa/|Yes|Python/Shell/R|All|Custom|DADA2|ASV|Other|bowtie2-blca|NA|NA|NA|NA|NA|NA||
 |`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes(CHECK)|||||||||||||||
 |`Banzai`|https://github.com/jimmyodonnell/banzai/||||||||||||||||
 |`Barque`|https://github.com/enormandeau/barque/||||||||||||||||
