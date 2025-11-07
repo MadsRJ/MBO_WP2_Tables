@@ -96,7 +96,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |--------|----|-------------------|--------|---------------|-----------|---------------|-------|--------------|-----------------|-------------------|----------------|----------------------|------------------|------------|------------------|----------------------|
 |`AMPtk`|https://github.com/nextgenusfs/amptk/||||||||||||||||
 |`Anacapa`|https://github.com/limey-bean/Anacapa/|Yes|Python/Shell/R|All|Custom|DADA2|ASV|Other|bowtie2-blca|NA|NA|NA|NA|NA|NA||
-|`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes(CHECK)|||||||||||||||
+|`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes|Python|CHECK|CHECK|vsearch/DnoisE|ASV/OTU|sequence similarity/sequence composition|BOLDIGGER3/vsearch sintax|0.75 (sintax) or 97 (BOLDIGGER3)|NA|NA|LULU|NA/YES|Manual curation?||
 |`Banzai`|https://github.com/jimmyodonnell/banzai/||||||||||||||||
 |`Barque`|https://github.com/enormandeau/barque/||||||||||||||||
 |`BIOCOM-PIPE`|https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe||||||||||||||||
