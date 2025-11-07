@@ -95,41 +95,41 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |Pipeline|Link|Incl_Data_Challenge|Language|Relevant_marker|ReferenceDB|Error_rate_tool|ASV_OTU|Tax_assign_cat|Otu_seq_comp_appr|Tax_class_id_cutoff|Tax_class_evalue|Tax_class_query_cutoff|Tax_class_collapse|Screen_other|Screen_explanation|Additional_usage_notes|
 |--------|----|-------------------|--------|---------------|-----------|---------------|-------|--------------|-----------------|-------------------|----------------|----------------------|------------------|------------|------------------|----------------------|
 |`AMPtk`|https://github.com/nextgenusfs/amptk/||||||||||||||||
-|`Anacapa`|https://github.com/limey-bean/Anacapa/||||||||||||||||
-|`APSCALE`|https://github.com/DominikBuchner/apscale/||||||||||||||||
+|`Anacapa`|https://github.com/limey-bean/Anacapa/|Yes|||||||||||||||
+|`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes(CHECK)|||||||||||||||
 |`Banzai`|https://github.com/jimmyodonnell/banzai/||||||||||||||||
 |`Barque`|https://github.com/enormandeau/barque/||||||||||||||||
 |`BIOCOM-PIPE`|https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe||||||||||||||||
-|`Cascabel`|https://github.com/AlejandroAb/CASCABEL/||||||||||||||||
+|`Cascabel`|https://github.com/AlejandroAb/CASCABEL/|Yes|||||||||||||||
 |`CoMA3`|https://github.com/SebH87/CoMA3/||||||||||||||||
-|`DADA2`|https://benjjneb.github.io/dada2/tutorial.html||||||||||||||||
+|`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes|||||||||||||||
 |`Dadaist2`|https://github.com/quadram-institute-bioscience/dadaist2/||||||||||||||||
 |`dadasnake`|https://github.com/a-h-b/dadasnake/||||||||||||||||
 |`DAnIEL`|https://github.com/bioinformatics-leibniz-hki/DAnIEL||||||||||||||||
 |`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/||||||||||||||||
-|`FROGS`|https://frogs.toulouse.inra.fr/||||||||||||||||
+|`FROGS`|https://frogs.toulouse.inra.fr/|Yes(CHECK)|||||||||||||||
 |`gDAT`|https://github.com/ut-planteco/gDAT/||||||||||||||||
 |`JAMP`|https://github.com/VascoElbrecht/JAMP/||||||||||||||||
 |`LotuS2`|https://github.com/hildebra/lotus2/||||||||||||||||
-|`MetaBarFlow`|https://github.com/evaegelyng/MetaBarFlow/||||||||||||||||
-|`MetaWorks`|https://github.com/terrimporter/MetaWorks/||||||||||||||||
+|`MetaBarFlow`|https://github.com/evaegelyng/MetaBarFlow/|Yes|||||||||||||||
+|`MetaWorks`|https://github.com/terrimporter/MetaWorks/|Yes|||||||||||||||
 |`MetaWorksSite`|https://terrimporter.github.io/MetaWorksSite/||||||||||||||||
-|`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/||||||||||||||||
+|`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/|Yes|||||||||||||||
 |`MICCA`|https://github.com/compmetagen/micca/||||||||||||||||
 |`MJOLNIR`|https://github.com/uit-metabarcoding/MJOLNIR/||||||||||||||||
 |`mothur`|https://github.com/mothur/mothur/||||||||||||||||
 |`NextITS`|https://github.com/vmikk/NextITS/||||||||||||||||
-|`nfcore/ampliseq`|https://nf-co.re/ampliseq/2.9.0/||||||||||||||||
-|`OBITools4`|https://github.com/metabarcoding/obitools4/||||||||||||||||
-|`PacMan`|https://github.com/iobis/PacMAN-pipeline/||||||||||||||||
+|`nfcore/ampliseq`|https://nf-co.re/ampliseq/2.9.0/|Yes|||||||||||||||
+|`OBITools4`|https://github.com/metabarcoding/obitools4/|Yes(CHECK)|||||||||||||||
+|`PacMan`|https://github.com/iobis/PacMAN-pipeline/|Yes|||||||||||||||
 |`PEMA`|https://github.com/hariszaf/pema/||||||||||||||||
-|`PipeCraft2`|https://github.com/pipecraft2/pipecraft/||||||||||||||||
+|`PipeCraft2`|https://github.com/pipecraft2/pipecraft/|Yes|||||||||||||||
 |`PIPITS`|https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12399/||||||||||||||||
-|`QIIME 2`|https://qiime2.org/ & https://github.com/qiime2/qiime2||||||||||||||||
+|`QIIME 2`|https://qiime2.org/ & https://github.com/qiime2/qiime2|Yes(CHECK)|||||||||||||||
 |`SCATA`|https://scata.mykopat.slu.se/ & https://github.com/mikdur/scata||||||||||||||||
-|`Seed2`|https://www.biomed.cas.cz/mbu/lbwrf/seed/||||||||||||||||
+|`Seed2`|https://www.biomed.cas.cz/mbu/lbwrf/seed/|Yes|||||||||||||||
 |`Slim`|https://trtcrd.github.io/SLIM/||||||||||||||||
-|`Tourmaline`|https://github.com/aomlomics/tourmaline/||||||||||||||||
+|`Tourmaline`|https://github.com/aomlomics/tourmaline/|Yes|||||||||||||||
 |`USEARCH`|https://cryptick-lab.github.io/NGS-Analysis/_site/usearch-v11.html||||||||||||||||
 |`VSEARCH`|https://github.com/torognes/vsearch/||||||||||||||||
 |`VTAM`|https://www.sciencedirect.com/science/article/pii/S200103702300034X/ & https://vtam.readthedocs.io/en/stable/content/overview.html||||||||||||||||
