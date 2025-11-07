@@ -103,7 +103,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`DADA2`||||https://benjjneb.github.io/dada2/tutorial.html||
 |`Dadaist2`||||https://github.com/quadram-institute-bioscience/dadaist2/||
 |`dadasnake`||||https://github.com/a-h-b/dadasnake/||
-|`DAnIEL`||||||
+|`DAnIEL`||||https://github.com/bioinformatics-leibniz-hki/DAnIEL||
 |`eDNAflow`||||https://github.com/mahsa-mousavi/eDNAFlow/||
 |`FROGS`||||https://frogs.toulouse.inra.fr/||
 |`gDAT`||||https://github.com/ut-planteco/gDAT/||
