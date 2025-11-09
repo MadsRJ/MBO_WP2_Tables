@@ -92,51 +92,51 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 ### Table 3: An alphabetically ordered, incomplete overview of existing metabarcoding pipelines
 
 
-|Pipeline|Link|Incl_Data_Challenge|Language|Relevant_marker|Error_rate_tool_&_denoising|ASV_OTU|Tax_assign_cat|Otu_seq_comp_appr|Tax_class_collapse|
-|--------|----|-------------------|--------|---------------|---------------------------|-------|--------------|-----------------|------------------|
-|`AMPtk`|https://github.com/nextgenusfs/amptk/|||||||||
-|`Anacapa`|https://github.com/limey-bean/Anacapa/|Yes|Python/Shell/R|All|DADA2|ASV|Other|bowtie2-blca|NA|
-|`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes|Python|CHECK|vsearch/DnoisE + LULU|ASV/OTU|Sequence similarity/Sequence composition|BOLDIGGER3/vsearch sintax|NA|
-|`Banzai`|https://github.com/jimmyodonnell/banzai/|||||||||
-|`Barque`|https://github.com/enormandeau/barque/|||||||||
-|`BIOCOM-PIPE`|https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe|||||||||
-|`Cascabel`|https://github.com/AlejandroAb/CASCABEL/|Yes|Python/Java/R/Shell/Perl|CHECK|Other/DADA2|ASV/OTU|Sequence similarity/Sequence composition|vsearch/DADA2|LCA/NA|
-|`CoMA3`|https://github.com/SebH87/CoMA3/|||||||||
-|`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes|R|All|DADA2|ASV|Sequence similarity/Sequence composition|DADA2(CHECK)|CHECK|
-|`Dadaist2`|https://github.com/quadram-institute-bioscience/dadaist2/|||||||||
-|`dadasnake`|https://github.com/a-h-b/dadasnake/|||||||||
-|`DAnIEL`|https://github.com/bioinformatics-leibniz-hki/DAnIEL|||||||||
-|`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/|||||||||
-|`FROGS`|https://frogs.toulouse.inra.fr/|Yes|HTML/Python/Shell/Other (Galaxy)|All|DADA2/Swarm|ASV/OTU|Sequence similarity|blastn|NA|
-|`gDAT`|https://github.com/ut-planteco/gDAT/|||||||||
-|`JAMP`|https://github.com/VascoElbrecht/JAMP/|||||||||
-|`LotuS2`|https://github.com/hildebra/lotus2/|||||||||
-|`MetaBarFlow`|https://github.com/evaegelyng/MetaBarFlow/|Yes||||||||
-|`MetaWorks`|https://github.com/terrimporter/MetaWorks/|Yes| C++/Python/shell| COI/rbcL/ITS/SSU rRNA/12S SSU mtDNA|vsearch|ASV/OTU|Sequence composition|rdp|NA|
-|`MICCA`|https://github.com/compmetagen/micca/|No | Python|16S rRNA/ITS/18S/28S|other|OTU|Sequence composition/Sequence similarity |Blast/rdp||
-|`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/|Yes|Python|12S Mifish|other|OTU|Sequence similarity|Blast|NA|
-|`OceanOmics-amplicon-nf`|https://github.com/MinderooFoundation/OceanOmics-amplicon-nf |Yes|Nextflow/Python/Groovy/HTML|All|dada2|ASV|Sequence similarity|Blast|LCA|
-|`MJOLNIR`|https://github.com/uit-metabarcoding/MJOLNIR/|||||||||
-|`MLI`||Yes||||||||
-|`mothur`|https://github.com/mothur/mothur/|||||||||
-|`NextITS`|https://github.com/vmikk/NextITS/|No|Nextflow/R/Shell|ITS|vsearch|OTU|Sequence similarity|SH-matcher|mumu|
-|`nfcore/ampliseq`|https://nf-co.re/ampliseq/2.9.0/|Yes||||||||
-|`OBITools4`|https://github.com/metabarcoding/obitools4/|No|Go/HTML/Shell/C/JavaScript|All|obiclean|ASV/OTU|Sequence similarity|obitag|LCA|
-|`PacMan`|https://github.com/iobis/PacMAN-pipeline/|Yes|Python/R|All|dada2|ASV|Sequence composition|rdp|LCA|
-|`PEMA`|https://github.com/hariszaf/pema/|||||||||
-|`PipeCraft2`|https://github.com/pipecraft2/pipecraft/|Yes||||||||
-|`PIPITS`|https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12399/|||||||||
-|`PMiFish`||Yes||||||||
-|`QIIME 2`|https://qiime2.org/ & https://github.com/qiime2/qiime2|Yes(CHECK)||||||||
-|`rainbowbridge`||Yes||||||||
-|`SCATA`|https://scata.mykopat.slu.se/ & https://github.com/mikdur/scata|||||||||
-|`Seed2`|https://www.biomed.cas.cz/mbu/lbwrf/seed/|Yes||||||||
-|`Slim`|https://trtcrd.github.io/SLIM/|||||||||
-|`Tourmaline`|https://github.com/aomlomics/tourmaline/|Yes||||||||
-|`UNOISE3`||Yes||||||||
-|`USEARCH`|https://cryptick-lab.github.io/NGS-Analysis/_site/usearch-v11.html|||||||||
-|`VSEARCH`|https://github.com/torognes/vsearch/|||||||||
-|`VTAM`|https://www.sciencedirect.com/science/article/pii/S200103702300034X/ & https://vtam.readthedocs.io/en/stable/content/overview.html|||||||||
+|Pipeline|Link|Incl_Data_Challenge|Language|Relevant_marker|Error_rate_tool|ASV_OTU|Otu_raw_description|Tax_assign_cat|Otu_seq_comp_appr|Tax_class_collapse|
+|--------|----|-------------------|--------|---------------|---------------|-------|-------------------|--------------|-----------------|------------------|
+|`AMPtk`|https://github.com/nextgenusfs/amptk/||||||||||
+|`Anacapa`|https://github.com/limey-bean/Anacapa/|Yes|Python/Shell/R|All|DADA2|ASV||Other|bowtie2-blca|NA|
+|`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes|Python|CHECK|vsearch/DnoisE|ASV/OTU|LULU|Sequence similarity/Sequence composition|BOLDIGGER3/vsearch sintax|NA|
+|`Banzai`|https://github.com/jimmyodonnell/banzai/||||||||||
+|`Barque`|https://github.com/enormandeau/barque/||||||||||
+|`BIOCOM-PIPE`|https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe||||||||||
+|`Cascabel`|https://github.com/AlejandroAb/CASCABEL/|Yes|Python/Java/R/Shell/Perl|CHECK|Other/DADA2|ASV/OTU||Sequence similarity/Sequence composition|vsearch/DADA2|LCA/NA|
+|`CoMA3`|https://github.com/SebH87/CoMA3/||||||||||
+|`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes|R|All|DADA2|ASV||Sequence similarity/Sequence composition|DADA2(CHECK)|CHECK|
+|`Dadaist2`|https://github.com/quadram-institute-bioscience/dadaist2/||||||||||
+|`dadasnake`|https://github.com/a-h-b/dadasnake/||||||||||
+|`DAnIEL`|https://github.com/bioinformatics-leibniz-hki/DAnIEL||||||||||
+|`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/||||||||||
+|`FROGS`|https://frogs.toulouse.inra.fr/|Yes|HTML/Python/Shell/Other (Galaxy)|All|DADA2/Swarm|ASV/OTU||Sequence similarity|blastn|NA|
+|`gDAT`|https://github.com/ut-planteco/gDAT/||||||||||
+|`JAMP`|https://github.com/VascoElbrecht/JAMP/||||||||||
+|`LotuS2`|https://github.com/hildebra/lotus2/||||||||||
+|`MetaBarFlow`|https://github.com/evaegelyng/MetaBarFlow/|Yes|||||||||
+|`MetaWorks`|https://github.com/terrimporter/MetaWorks/|Yes| C++/Python/shell| COI/rbcL/ITS/SSU rRNA/12S SSU mtDNA|vsearch|ASV/OTU||Sequence composition|rdp|NA|
+|`MICCA`|https://github.com/compmetagen/micca/|No | Python|16S rRNA/ITS/18S/28S|other|OTU||Sequence composition/Sequence similarity |Blast/rdp||
+|`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/|Yes|Python|12S Mifish|other|OTU||Sequence similarity|Blast|NA|
+|`OceanOmics-amplicon-nf`|https://github.com/MinderooFoundation/OceanOmics-amplicon-nf|Yes|Nextflow/Python/Groovy/HTML|All|dada2|ASV||Sequence similarity|Blast|LCA|
+|`MJOLNIR`|https://github.com/uit-metabarcoding/MJOLNIR/||||||||||
+|`MLI`||Yes|||||||||
+|`mothur`|https://github.com/mothur/mothur/||||||||||
+|`NextITS`|https://github.com/vmikk/NextITS/|No|Nextflow/R/Shell|ITS|vsearch|OTU||Sequence similarity|SH-matcher|mumu|
+|`nfcore/ampliseq`|https://nf-co.re/ampliseq/2.9.0/|Yes|||||||||
+|`OBITools4`|https://github.com/metabarcoding/obitools4/|No|Go/HTML/Shell/C/JavaScript|All|obiclean|ASV/OTU||Sequence similarity|obitag|LCA|
+|`PacMan`|https://github.com/iobis/PacMAN-pipeline/|Yes|Python/R|All|dada2|ASV||Sequence composition|rdp|LCA|
+|`PEMA`|https://github.com/hariszaf/pema/||||||||||
+|`PipeCraft2`|https://github.com/pipecraft2/pipecraft/|Yes|||||||||
+|`PIPITS`|https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12399/||||||||||
+|`PMiFish`||Yes|||||||||
+|`QIIME 2`|https://qiime2.org/ & https://github.com/qiime2/qiime2|Yes(CHECK)|||||||||
+|`rainbowbridge`||Yes|||||||||
+|`SCATA`|https://scata.mykopat.slu.se/ & https://github.com/mikdur/scata||||||||||
+|`Seed2`|https://www.biomed.cas.cz/mbu/lbwrf/seed/|Yes|||||||||
+|`Slim`|https://trtcrd.github.io/SLIM/||||||||||
+|`Tourmaline`|https://github.com/aomlomics/tourmaline/|Yes|||||||||
+|`UNOISE3`||Yes|||||||||
+|`USEARCH`|https://cryptick-lab.github.io/NGS-Analysis/_site/usearch-v11.html||||||||||
+|`VSEARCH`|https://github.com/torognes/vsearch/||||||||||
+|`VTAM`|https://www.sciencedirect.com/science/article/pii/S200103702300034X/ & https://vtam.readthedocs.io/en/stable/content/overview.html||||||||||
 
 ## Acknowledgements
 This repository was created under the framework of the EU-project [MARCO-BOLO](https://marcobolo-project.eu/). The MARCO-BOLO project is funded by the European Union under the Horizon Europe Programme, Grant Agreement No. 101082021 (MARCO-BOLO). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency (REA). Neither the European Union nor the granting authority can be held responsible for them. UK participants in MARCO-BOLO are supported by the UKRI’s Horizon Europe Guarantee under the Grant No. 10068180 (MS); No. 10063994 (MBA); No. 10048178 (NOC).
