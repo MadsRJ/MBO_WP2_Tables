@@ -1,7 +1,7 @@
 # MBO_WP2_Tables
 Three tables generated as part of MBO WP2's work on identifying primers, reference databases and pipelines used for metabarcoding studies. The first table serves as an excellent starting point for ctrl+F searches for given primer sequences, e.g. when comparing across studies. We specifically include both 5'-3' and 3'-5' primer sequences to enable this ctrl+F search, as the same primers are sometimes reported in diferrent directions across studies. The second table identifies key reference databases often encountered in the literature, with specific details associated with each of them. The third table is a comprehensive (but likely incomplete) list of pipelines for processing metabarcoding data, providing external links to where to find more information about each of them.
 
-### Table 1: An incomplete overview of empirically tested and/or frequently used metabarcoding primers and their target groups
+### Table 1: An incomplete overview of empirically tested and/or frequently used metabarcoding primers and their target groups. For more primers found in the literature, see also [Pieter Proovost's primer list](https://pieterprovoost.be/primersets/) and the paper by [Takahashi et al. 2023](https://www.sciencedirect.com/science/article/pii/S0048969723009385)
 
 |Primer&nbsp;combination&nbsp;name|Individual&nbsp;primer&nbsp;names&nbsp;(F&nbsp;and&nbsp;R)|F-primer (5′-3′) <br> F-primer (3′-5′)|R-primer (5′-3′) <br> R-primer (3′-5′)|Marker&nbsp;gene|Target&nbsp;group|Fragment&nbsp;size&nbsp;(bp)|Reference(s)|Additional&nbsp;usage&nbsp;notes&nbsp;and&nbsp;other&nbsp;relevant&nbsp;information|
 |-----------|------------|--------------------------------------|--------------------------------------|------|------------|------------------|------------|-----|
@@ -199,6 +199,8 @@ Stoeck, T., Bass, D. Nebel, M., Christen, R., Jones, M. D. M., Breiner, H.-W., R
 Taberlet, P., Coissac, E., Pompanon, F., Gielly, L., Miquel, C., Valentini, A., Vermat, T., Corthier, G., Brochmann, C., Willerslev, E. (2007). Power and limitations of the chloroplast trn L (UAA) intron for plant DNA barcoding. Nucleic Acids Research 35(3), e14. https://doi.org/10.1093/nar/gkl938.
 
 Taberlet, P., Bonin, A., Zinger, L., & Coissac, E. (2018). Environmental DNA: For biodiversity research and monitoring. Oxford University Press.
+
+Takahashi, M., Saccò, M., Kestel, J. H., Nester, G., Campbell, M. A., van der Heyde, M., Heydenrych, M. J., Juszkiewicz, D. J., Nevill, P., Dawkins, K. L., Bessey, C., Fernandes, K., Miller, H., Power, M., Mousavi-Derazmahalleh, M., Newton, J. P., White, N. E., Richards, Z. T., Allentoft, M. E. (2023). Aquatic environmental DNA: A review of the macro-organismal biomonitoring revolution. Science of The Total Environment 873, 162322. https://doi.org/10.1016/j.scitotenv.2023.162322.
 
 Thomsen, P. F., Møller, P. R., Sigsgaard, E. E., Knudsen, S. W., Jørgensen, O. A., & Willerslev, E. (2016). Environmental DNA from seawater samples correlate with trawl catches of subarctic, deepwater fishes. PLoS One, 11(11), e0165252. https://doi.org/10.1371/journal.pone.0165252.
 
