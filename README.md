@@ -99,11 +99,11 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes|Python|CHECK|vsearch/DnoisE|ASV/OTU|LULU|Sequence similarity/Sequence composition|BOLDIGGER3/vsearch sintax|NA|
 |`Banzai`|https://github.com/jimmyodonnell/banzai/|No|Shell/R/Python/HTML/Ruby|Any|vsearch/Swarm|OTU||Sequence similarity|CHECK|NA|
 |`Barque`|https://github.com/enormandeau/barque/|No|Python/Shell/R|Any|vsearch/unoise3|Check||Sequence similarity/Sequence composition|vsearch/blast|NA|
-|`BIOCOM-PIPE`|https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe||||||||||
-|`Cascabel`|https://github.com/AlejandroAb/CASCABEL/|Yes|Python/Java/R/Shell/Perl|CHECK|Other/DADA2|ASV/OTU||Sequence similarity/Sequence composition|vsearch/DADA2|LCA/NA|
-|`CoMA3`|https://github.com/SebH87/CoMA3/||||||||||
+|`BIOCOM-PIPE`|https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe|No|Perl/Python/HTML/Java/CSS|16S, 18S, 23S|CHECK|OTU||Sequence composition|rdp/other|LCA/other|
+|`Cascabel`|https://github.com/AlejandroAb/CASCABEL/|Yes|Python/Java/R/Shell/Perl|Any|Other/DADA2|ASV/OTU||Sequence similarity/Sequence composition|vsearch/DADA2|LCA/NA|
+|`CoMA3`|https://github.com/SebH87/CoMA3/|No|Python/Shell|16S/18S/23S/28S/ITS|DADA2/Unoise3/vsearch|OTU||Sequence similarity/Sequence composition|rdp/other|LCA|
 |`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes|R|All|DADA2|ASV||Sequence similarity/Sequence composition|DADA2(CHECK)|CHECK|
-|`Dadaist2`|https://github.com/quadram-institute-bioscience/dadaist2/||||||||||
+|`Dadaist2`|https://github.com/quadram-institute-bioscience/dadaist2/|No|HTML/UnrealScript/Perl/R/Python/Nextflow/Other/|Any|DADA2|ASV||Sequence similarity/Sequence composition|DECIPHER/DADA2|LCA/other|
 |`dadasnake`|https://github.com/a-h-b/dadasnake/||||||||||
 |`DAnIEL`|https://github.com/bioinformatics-leibniz-hki/DAnIEL||||||||||
 |`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/||||||||||
@@ -115,14 +115,14 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`MetaWorks`|https://github.com/terrimporter/MetaWorks/|Yes| C++/Python/shell| COI/rbcL/ITS/SSU rRNA/12S SSU mtDNA|vsearch|ASV/OTU||Sequence composition|rdp|NA|
 |`MICCA`|https://github.com/compmetagen/micca/|No | Python|16S rRNA/ITS/18S/28S|other|OTU||Sequence composition/Sequence similarity |blast/rdp||
 |`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/|Yes|Python|12S Mifish|other|OTU||Sequence similarity|blast|NA|
-|`OceanOmics-amplicon-nf`|https://github.com/MinderooFoundation/OceanOmics-amplicon-nf|Yes|Nextflow/Python/Groovy/HTML|All|dada2|ASV||Sequence similarity|blast|LCA|
+|`OceanOmics-amplicon-nf`|https://github.com/MinderooFoundation/OceanOmics-amplicon-nf|Yes|Nextflow/Python/Groovy/HTML|All|DADA2|ASV||Sequence similarity|blast|LCA|
 |`MJOLNIR`|https://github.com/uit-metabarcoding/MJOLNIR/||||||||||
 |`MLI`||Yes|||||||||
 |`mothur`|https://github.com/mothur/mothur/||||||||||
 |`NextITS`|https://github.com/vmikk/NextITS/|No|Nextflow/R/Shell|ITS|vsearch|OTU||Sequence similarity|SH-matcher|mumu|
 |`nfcore/ampliseq`|https://nf-co.re/ampliseq/2.9.0/|Yes|||||||||
 |`OBITools4`|https://github.com/metabarcoding/obitools4/|No|Go/HTML/Shell/C/JavaScript|All|obiclean|ASV/OTU||Sequence similarity|obitag|LCA|
-|`PacMan`|https://github.com/iobis/PacMAN-pipeline/|Yes|Python/R|All|dada2|ASV||Sequence composition|rdp|LCA|
+|`PacMan`|https://github.com/iobis/PacMAN-pipeline/|Yes|Python/R|All|DADA2|ASV||Sequence composition|rdp|LCA|
 |`PEMA`|https://github.com/hariszaf/pema/||||||||||
 |`PipeCraft2`|https://github.com/pipecraft2/pipecraft/|Yes|||||||||
 |`PIPITS`|https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12399/||||||||||
