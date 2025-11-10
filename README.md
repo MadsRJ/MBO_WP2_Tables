@@ -108,9 +108,9 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`DAnIEL`|https://github.com/bioinformatics-leibniz-hki/DAnIEL|No|R/Python/TeX/Shell/Dockerfile/CSS/Other|ITS|DADA2|ASV/OTU||Sequence composition|SINTAX/rdp|LCA|
 |`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/|No|Nextflow/Python/Shell/R|Any|UNOISE3|zOTU|LULU|Sequence similarity|blast|LCA|
 |`FROGS`|https://frogs.toulouse.inra.fr/|Yes|HTML/Python/Shell/Other (Galaxy)|All|DADA2/Swarm|ASV/OTU||Sequence similarity|blast|NA|
-|`gDAT`|https://github.com/ut-planteco/gDAT/|No|||||||||
-|`JAMP`|https://github.com/VascoElbrecht/JAMP/|No|||||||||
-|`LotuS2`|https://github.com/hildebra/lotus2/|No(CHECK)|||||||||
+|`gDAT`|https://github.com/ut-planteco/gDAT/|No|Python/HTML/Other|ITS/SSU/Any|vsearch|OTU||Sequence similarity|blast|CHECK|
+|`JAMP`|https://github.com/VascoElbrecht/JAMP/|No|R|Any|vsearch|OTU|CHECK1|CHECK2|CHECK3|CHECK4|
+|`LotuS2`|https://github.com/hildebra/lotus2/|No(CHECK)|Perl/R|16S/18S/23S/28S/ITS|DADA2/uparse/unoise3/cd-hit/vsearch|ASV/OTU|CHECK1|Sequence similarity/Sequence composition|User defined|CHECK|
 |`MetaBarFlow`|https://github.com/evaegelyng/MetaBarFlow/|Yes|R/Python/Shell|Any|DADA2|ASV||Sequence similarity/Sequence composition|blast/custom|LCA|
 |`MetaWorks`|https://github.com/terrimporter/MetaWorks/|Yes| C++/Python/shell| COI/rbcL/ITS/SSU rRNA/12S SSU mtDNA|vsearch|ASV/OTU||Sequence composition|rdp|NA|
 |`MICCA`|https://github.com/compmetagen/micca/|No | Python|16S rRNA/ITS/18S/28S|other|OTU||Sequence composition/Sequence similarity |blast/rdp||
