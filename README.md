@@ -55,7 +55,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Sper01`|**F:** g-A49425 (Sper01-F) <br> **R:** h-B49466 (Sper01-R)|GGGCAATCCTGAGCCAA <br> AACCGAGTCCTAACGGG|CCATTGAGTCTCTGCACCTATC <br> CTATCCACGTCTCTGAGTTACC|trnL, P6 loop|Spermatophyta (seed plants)|~48|Taberlet et al. (2007)|Widely used for degraded material due to the short length.|
 |`Stoeck`|**F:** TAReuk454FWD1 (V4F) <br> **R:** TAReukREV3 (V4R)|CCAGCASCYGCGGTAATTCC <br> CCTTAATGGCGYCSACGACC|ACTTTCGTTCTTGATYRA <br> ARYTAGTTCTTGCTTTCA|18S (V4)|Eukaryotes|~380|Stoeck et al. (2010)||
 |`Tele01`|**F:** teleo_F <br> **R:** teleo_R|ACACCGCCCGTCACTCT <br> TCTCACTGCCCGCCACA|CTTCCGGTACACTTACCATG <br> GTACCATTCACATGGCCTTC|12S|Teleostei|~64|Valentini et al. (2016)|Poor resolution for Cyprinidae and Gadidae.|
-|`Tele02`|**F:** Tele02-F <br> **R:** Tele02-R|AAACTCGTGCCAGCCACC <br> CCACCGACCGTGCTCAAA|GTTTGACCCTAATCTATGGG <br> GGGTATCTAATCCCAGTTTG|12S|Fishes/vertebrates|129-209|Taberlet et al. (2018), Thomsen et al. (2016)|F-primer first described as "V05F_898" from Thomsen et al. (2016).|
+|`Tele02`|**F:** Tele02-F <br> **R:** Tele02-R|AAACTCGTGCCAGCCACC <br> CCACCGACCGTGCTCAAA|GGGTATCTAATCCCAGTTTG <br> GTTTGACCCTAATCTATGGG|12S|Fishes/vertebrates|129-209|Taberlet et al. (2018), Thomsen et al. (2016)|F-primer first described as "V05F_898" from Thomsen et al. (2016).|
 
 ### Table 2: An overview of frequently used reference databases
 |Database|Target&nbsp;group|Website/download&nbsp;link|Marker(s)|Known&nbsp;deficiencies|Last&nbsp;updated|Licence&nbsp;type|Coverage&nbsp;(Regions)|Additional&nbsp;usage&nbsp;notes&nbsp;and&nbsp;other&nbsp;relevant&nbsp;information|
