@@ -96,7 +96,7 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |--------|----|-------------------|--------|---------------|---------------|-------|-------------------|--------------|-----------------|------------------|
 |`AMPtk`|https://github.com/nextgenusfs/amptk/|No|Python/R/Other|Any|UPARSE/DADA2/UNOISE2/UNOISE3|User defined|Spike-in filtering|Sequence similarity/Sequence composition|Hybrid/modular|LCA|
 |`Anacapa`|https://github.com/limey-bean/Anacapa/|Yes|Python/Shell/R|All|DADA2|ASV||Other|bowtie2-blca|NA|
-|`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes|Python|CHECK|vsearch/DnoisE|ASV/OTU|LULU|Sequence similarity/Sequence composition|BOLDIGGER3/vsearch sintax|NA|
+|`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes|Python|CHECK|vsearch/DnoisE|ASV/OTU|LULU|Sequence similarity/Sequence composition|BOLDIGGER3/vsearch SINTAX|NA|
 |`Banzai`|https://github.com/jimmyodonnell/banzai/|No|Shell/R/Python/HTML/Ruby|Any|vsearch/Swarm|OTU||Sequence similarity|CHECK|NA|
 |`Barque`|https://github.com/enormandeau/barque/|No|Python/Shell/R|Any|vsearch/unoise3|Check||Sequence similarity/Sequence composition|vsearch/blast|NA|
 |`BIOCOM-PIPE`|https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe|No|Perl/Python/HTML/Java/CSS|16S, 18S, 23S|CHECK|OTU||Sequence composition|rdp/other|LCA/other|
@@ -104,14 +104,14 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`CoMA3`|https://github.com/SebH87/CoMA3/|No|Python/Shell|16S/18S/23S/28S/ITS|DADA2/Unoise3/vsearch|OTU||Sequence similarity/Sequence composition|rdp/other|LCA|
 |`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes|R|All|DADA2|ASV||Sequence similarity/Sequence composition|DADA2(CHECK)|CHECK|
 |`Dadaist2`|https://github.com/quadram-institute-bioscience/dadaist2/|No|HTML/UnrealScript/Perl/R/Python/Nextflow/Other/|Any|DADA2|ASV||Sequence similarity/Sequence composition|DECIPHER/DADA2|LCA/other|
-|`dadasnake`|https://github.com/a-h-b/dadasnake/||||||||||
-|`DAnIEL`|https://github.com/bioinformatics-leibniz-hki/DAnIEL||||||||||
-|`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/||||||||||
+|`dadasnake`|https://github.com/a-h-b/dadasnake/|No|Python/R/Shell|16S/ITS/Any|DADA2|ASV/OTU||Sequence similarity/Sequence composition|MOTHUR/DECIPHER|LCA|
+|`DAnIEL`|https://github.com/bioinformatics-leibniz-hki/DAnIEL|No|R/Python/TeX/Shell/Dockerfile/CSS/Other|ITS|DADA2|ASV/OTU||Sequence composition|SINTAX/rdp|LCA|
+|`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/|No|||||||||
 |`FROGS`|https://frogs.toulouse.inra.fr/|Yes|HTML/Python/Shell/Other (Galaxy)|All|DADA2/Swarm|ASV/OTU||Sequence similarity|blast|NA|
-|`gDAT`|https://github.com/ut-planteco/gDAT/||||||||||
-|`JAMP`|https://github.com/VascoElbrecht/JAMP/||||||||||
-|`LotuS2`|https://github.com/hildebra/lotus2/||||||||||
-|`MetaBarFlow`|https://github.com/evaegelyng/MetaBarFlow/|Yes|||||||||
+|`gDAT`|https://github.com/ut-planteco/gDAT/|No|||||||||
+|`JAMP`|https://github.com/VascoElbrecht/JAMP/|No|||||||||
+|`LotuS2`|https://github.com/hildebra/lotus2/|No(CHECK)|||||||||
+|`MetaBarFlow`|https://github.com/evaegelyng/MetaBarFlow/|Yes|R/Python/Shell|Any|DADA2|ASV||Sequence similarity/Sequence composition|blast/custom|LCA|
 |`MetaWorks`|https://github.com/terrimporter/MetaWorks/|Yes| C++/Python/shell| COI/rbcL/ITS/SSU rRNA/12S SSU mtDNA|vsearch|ASV/OTU||Sequence composition|rdp|NA|
 |`MICCA`|https://github.com/compmetagen/micca/|No | Python|16S rRNA/ITS/18S/28S|other|OTU||Sequence composition/Sequence similarity |blast/rdp||
 |`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/|Yes|Python|12S Mifish|other|OTU||Sequence similarity|blast|NA|
