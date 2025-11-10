@@ -103,10 +103,10 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`Cascabel`|https://github.com/AlejandroAb/CASCABEL/|Yes|Python/Java/R/Shell/Perl|Any|Other/DADA2|ASV/OTU||Sequence similarity/Sequence composition|vsearch/DADA2|LCA/NA|
 |`CoMA3`|https://github.com/SebH87/CoMA3/|No|Python/Shell|16S/18S/23S/28S/ITS|DADA2/Unoise3/vsearch|OTU||Sequence similarity/Sequence composition|rdp/other|LCA|
 |`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes|R|All|DADA2|ASV||Sequence similarity/Sequence composition|DADA2(CHECK)|CHECK|
-|`Dadaist2`|https://github.com/quadram-institute-bioscience/dadaist2/|No|HTML/UnrealScript/Perl/R/Python/Nextflow/Other/|Any|DADA2|ASV||Sequence similarity/Sequence composition|DECIPHER/DADA2|LCA/other|
+|`Dadaist2`|https://github.com/quadram-institute-bioscience/dadaist2/|No|HTML/UnrealScript/Perl/R/Python/Nextflow/Other|Any|DADA2|ASV||Sequence similarity/Sequence composition|DECIPHER/DADA2|LCA/other|
 |`dadasnake`|https://github.com/a-h-b/dadasnake/|No|Python/R/Shell|16S/ITS/Any|DADA2|ASV/OTU||Sequence similarity/Sequence composition|MOTHUR/DECIPHER|LCA|
 |`DAnIEL`|https://github.com/bioinformatics-leibniz-hki/DAnIEL|No|R/Python/TeX/Shell/Dockerfile/CSS/Other|ITS|DADA2|ASV/OTU||Sequence composition|SINTAX/rdp|LCA|
-|`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/|No|||||||||
+|`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/|No|Nextflow/Python/Shell/R|Any|UNOISE3|zOTU|LULU|Sequence similarity|blast|LCA|
 |`FROGS`|https://frogs.toulouse.inra.fr/|Yes|HTML/Python/Shell/Other (Galaxy)|All|DADA2/Swarm|ASV/OTU||Sequence similarity|blast|NA|
 |`gDAT`|https://github.com/ut-planteco/gDAT/|No|||||||||
 |`JAMP`|https://github.com/VascoElbrecht/JAMP/|No|||||||||
