@@ -95,19 +95,19 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |Pipeline|Link|Incl_Data_Challenge|Language|Relevant_marker|Error_rate_tool|ASV_OTU|Otu_raw_description|Tax_assign_cat|Otu_seq_comp_appr|Tax_class_collapse|
 |--------|----|-------------------|--------|---------------|---------------|-------|-------------------|--------------|-----------------|------------------|
 |`AMPtk`|https://github.com/nextgenusfs/amptk/|No|Python/R/Other|Any|UPARSE/DADA2/UNOISE2/UNOISE3|User defined|Spike-in filtering|Sequence similarity/Sequence composition|Hybrid/modular|LCA|
-|`Anacapa`|https://github.com/limey-bean/Anacapa/|Yes|Python/Shell/R|All|DADA2|ASV||Other|bowtie2-blca|NA|
+|`Anacapa`|https://github.com/limey-bean/Anacapa/|Yes|Python/Shell/R|Any|DADA2|ASV||Other|bowtie2-blca|NA|
 |`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes|Python|CHECK|vsearch/DnoisE|ASV/OTU|LULU|Sequence similarity/Sequence composition|BOLDIGGER3/vsearch SINTAX|NA|
 |`Banzai`|https://github.com/jimmyodonnell/banzai/|No|Shell/R/Python/HTML/Ruby|Any|vsearch/Swarm|OTU||Sequence similarity|CHECK|NA|
 |`Barque`|https://github.com/enormandeau/barque/|No|Python/Shell/R|Any|vsearch/unoise3|Check||Sequence similarity/Sequence composition|vsearch/blast|NA|
 |`BIOCOM-PIPE`|https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe|No|Perl/Python/HTML/Java/CSS|16S, 18S, 23S|CHECK|OTU||Sequence composition|rdp/other|LCA/other|
 |`Cascabel`|https://github.com/AlejandroAb/CASCABEL/|Yes|Python/Java/R/Shell/Perl|Any|Other/DADA2|ASV/OTU||Sequence similarity/Sequence composition|vsearch/DADA2|LCA/NA|
 |`CoMA3`|https://github.com/SebH87/CoMA3/|No|Python/Shell|16S/18S/23S/28S/ITS|DADA2/Unoise3/vsearch|OTU||Sequence similarity/Sequence composition|rdp/other|LCA|
-|`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes|R|All|DADA2|ASV||Sequence similarity/Sequence composition|DADA2(CHECK)|CHECK|
+|`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes|R|Any|DADA2|ASV||Sequence similarity/Sequence composition|DADA2(CHECK)|CHECK|
 |`Dadaist2`|https://github.com/quadram-institute-bioscience/dadaist2/|No|HTML/UnrealScript/Perl/R/Python/Nextflow/Other|Any|DADA2|ASV||Sequence similarity/Sequence composition|DECIPHER/DADA2|LCA/other|
 |`dadasnake`|https://github.com/a-h-b/dadasnake/|No|Python/R/Shell|16S/ITS/Any|DADA2|ASV/OTU||Sequence similarity/Sequence composition|MOTHUR/DECIPHER|LCA|
 |`DAnIEL`|https://github.com/bioinformatics-leibniz-hki/DAnIEL|No|R/Python/TeX/Shell/Dockerfile/CSS/Other|ITS|DADA2|ASV/OTU||Sequence composition|SINTAX/rdp|LCA|
 |`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/|No|Nextflow/Python/Shell/R|Any|UNOISE3|zOTU|LULU|Sequence similarity|blast|LCA|
-|`FROGS`|https://frogs.toulouse.inra.fr/|Yes|HTML/Python/Shell/Other (Galaxy)|All|DADA2/Swarm|ASV/OTU||Sequence similarity|blast|NA|
+|`FROGS`|https://frogs.toulouse.inra.fr/|Yes|HTML/Python/Shell/Other (Galaxy)|Any|DADA2/Swarm|ASV/OTU||Sequence similarity|blast|NA|
 |`gDAT`|https://github.com/ut-planteco/gDAT/|No|Python/HTML/Other|ITS/SSU/Any|vsearch|OTU||Sequence similarity|blast|CHECK|
 |`JAMP`|https://github.com/VascoElbrecht/JAMP/|No|R|Any|vsearch|OTU|CHECK1|CHECK2|CHECK3|CHECK4|
 |`LotuS2`|https://github.com/hildebra/lotus2/|No(CHECK)|Perl/R|16S/18S/23S/28S/ITS|DADA2/uparse/unoise3/cd-hit/vsearch|ASV/OTU|CHECK1|Sequence similarity/Sequence composition|User defined|CHECK|
@@ -115,14 +115,14 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`MetaWorks`|https://github.com/terrimporter/MetaWorks/|Yes| C++/Python/shell| COI/rbcL/ITS/SSU rRNA/12S SSU mtDNA|vsearch|ASV/OTU||Sequence composition|rdp|NA|
 |`MICCA`|https://github.com/compmetagen/micca/|No | Python|16S rRNA/ITS/18S/28S|other|OTU||Sequence composition/Sequence similarity |blast/rdp||
 |`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/|Yes|Python|12S Mifish|other|OTU||Sequence similarity|blast|NA|
-|`OceanOmics-amplicon-nf`|https://github.com/MinderooFoundation/OceanOmics-amplicon-nf|Yes|Nextflow/Python/Groovy/HTML|All|DADA2|ASV||Sequence similarity|blast|LCA|
+|`OceanOmics-amplicon-nf`|https://github.com/MinderooFoundation/OceanOmics-amplicon-nf|Yes|Nextflow/Python/Groovy/HTML|Any|DADA2|ASV||Sequence similarity|blast|LCA|
 |`MJOLNIR`|https://github.com/uit-metabarcoding/MJOLNIR/||||||||||
 |`MLI`||Yes|||||||||
 |`mothur`|https://github.com/mothur/mothur/||||||||||
 |`NextITS`|https://github.com/vmikk/NextITS/|No|Nextflow/R/Shell|ITS|vsearch|OTU||Sequence similarity|SH-matcher|mumu|
 |`nfcore/ampliseq`|https://nf-co.re/ampliseq/2.9.0/|Yes|||||||||
-|`OBITools4`|https://github.com/metabarcoding/obitools4/|No|Go/HTML/Shell/C/JavaScript|All|obiclean|ASV/OTU||Sequence similarity|obitag|LCA|
-|`PacMan`|https://github.com/iobis/PacMAN-pipeline/|Yes|Python/R|All|DADA2|ASV||Sequence composition|rdp|LCA|
+|`OBITools4`|https://github.com/metabarcoding/obitools4/|No|Go/HTML/Shell/C/JavaScript|Any|obiclean|ASV/OTU||Sequence similarity|obitag|LCA|
+|`PacMan`|https://github.com/iobis/PacMAN-pipeline/|Yes|Python/R|Any|DADA2|ASV||Sequence composition|rdp|LCA|
 |`PEMA`|https://github.com/hariszaf/pema/||||||||||
 |`PipeCraft2`|https://github.com/pipecraft2/pipecraft/|Yes|||||||||
 |`PIPITS`|https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12399/||||||||||
