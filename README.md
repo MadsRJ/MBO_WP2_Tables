@@ -89,28 +89,27 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`WormBase`|*C. elegans* and related nematodes|https://www.alliancegenome.org/members/wormbase|Genomic and transcriptomic|Focused on model C. elegans; limited to nematodes|News and discussions on website, updates regularly|CC BY 4.0|Worldwide (model species)|Comprehensive curated source for nematode genomics; mainly relevant for model-organism studies rather than environmental surveys|
 |`ZFIN`|*Danio rerio* (zebrafish)|https://zfin.org/|Genomic|||Creative Commons Attribution 4.0 International License|Zebrafish are native to South Asia, but sold worldwide in aquarium trade|Only relevant for studies of the model organism zebrafish|
 
-### Table 3: An alphabetically ordered, incomplete overview of existing metabarcoding pipelines
+### Table 3: An alphabetically ordered, incomplete overview of existing metabarcoding pipelines. The metadata for the pipelines is based on information available on GitHub repositories, associated publications, and/or other documentation, and recorded by categories defined in the [FAIRe project](https://fair-edna.github.io/index.html).
 
-
-|Pipeline|Link|Incl_Data_Challenge|Language|Relevant_marker|Error_rate_tool|ASV_OTU|Otu_raw_description|Tax_assign_cat|Otu_seq_comp_appr|Tax_class_collapse|
+|Pipeline|Link|incl_Data_Challenge|Language|relevant_marker|error_rate_tool|ASV_OTU|otu_raw_description|tax_assign_cat|otu_seq_comp_appr|tax_class_collapse|
 |--------|----|-------------------|--------|---------------|---------------|-------|-------------------|--------------|-----------------|------------------|
 |`AMPtk`|https://github.com/nextgenusfs/amptk/|No|Python/R/Other|Any|UPARSE/DADA2/UNOISE2/UNOISE3|User defined|Spike-in filtering|Sequence similarity/Sequence composition|Hybrid/modular|LCA|
 |`Anacapa`|https://github.com/limey-bean/Anacapa/|Yes|Python/Shell/R|Any|DADA2|ASV||Other|bowtie2-blca|NA|
-|`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes|Python|CHECK|vsearch/DnoisE|ASV/OTU|LULU|Sequence similarity/Sequence composition|BOLDIGGER3/vsearch SINTAX|NA|
-|`Banzai`|https://github.com/jimmyodonnell/banzai/|No|Shell/R/Python/HTML/Ruby|Any|vsearch/Swarm|OTU||Sequence similarity|CHECK|NA|
-|`Barque`|https://github.com/enormandeau/barque/|No|Python/Shell/R|Any|vsearch/unoise3|Check||Sequence similarity/Sequence composition|vsearch/blast|NA|
-|`BIOCOM-PIPE`|https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe|No|Perl/Python/HTML/Java/CSS|16S, 18S, 23S|CHECK|OTU||Sequence composition|rdp/other|LCA/other|
+|`APSCALE`|https://github.com/DominikBuchner/apscale/|Yes|Python|Any|vsearch/DnoisE|ASV/OTU|LULU|Sequence similarity/Sequence composition|BOLDIGGER3/vsearch SINTAX|NA|
+|`Banzai`|https://github.com/jimmyodonnell/banzai/|No|Shell/R/Python/HTML/Ruby|Any|vsearch/Swarm|OTU||Sequence similarity|blast|NA|
+|`Barque`|https://github.com/enormandeau/barque/|No|Python/Shell/R|Any|vsearch/unoise3|ASV||Sequence similarity/Sequence composition|vsearch/blast|NA|
+|`BIOCOM-PIPE`|https://doi.org/10.1186/s12859-020-03829-3 & https://forge.inrae.fr/biocom/biocom-pipe|No|Perl/Python/HTML/Java/CSS|16S, 18S, 23S|Custom|OTU||Sequence composition|rdp/other|LCA/other|
 |`Cascabel`|https://github.com/AlejandroAb/CASCABEL/|Yes|Python/Java/R/Shell/Perl|Any|Other/DADA2|ASV/OTU||Sequence similarity/Sequence composition|vsearch/DADA2|LCA/NA|
 |`CoMA3`|https://github.com/SebH87/CoMA3/|No|Python/Shell|16S/18S/23S/28S/ITS|DADA2/Unoise3/vsearch|OTU||Sequence similarity/Sequence composition|rdp/other|LCA|
-|`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes|R|Any|DADA2|ASV||Sequence similarity/Sequence composition|DADA2(CHECK)|CHECK|
+|`DADA2`|https://benjjneb.github.io/dada2/tutorial.html|Yes|R|Any|DADA2|ASV||Sequence similarity/Sequence composition|DADA2|NA|
 |`Dadaist2`|https://github.com/quadram-institute-bioscience/dadaist2/|No|HTML/UnrealScript/Perl/R/Python/Nextflow/Other|Any|DADA2|ASV||Sequence similarity/Sequence composition|DECIPHER/DADA2|LCA/other|
 |`dadasnake`|https://github.com/a-h-b/dadasnake/|No|Python/R/Shell|16S/ITS/Any|DADA2|ASV/OTU||Sequence similarity/Sequence composition|MOTHUR/DECIPHER|LCA|
 |`DAnIEL`|https://github.com/bioinformatics-leibniz-hki/DAnIEL|No|R/Python/TeX/Shell/Dockerfile/CSS/Other|ITS|DADA2|ASV/OTU||Sequence composition|SINTAX/rdp|LCA|
 |`eDNAflow`|https://github.com/mahsa-mousavi/eDNAFlow/|No|Nextflow/Python/Shell/R|Any|UNOISE3|zOTU|LULU|Sequence similarity|blast|LCA|
 |`FROGS`|https://frogs.toulouse.inra.fr/|Yes|HTML/Python/Shell/Other (Galaxy)|Any|DADA2/Swarm|ASV/OTU||Sequence similarity|blast|NA|
-|`gDAT`|https://github.com/ut-planteco/gDAT/|No|Python/HTML/Other|ITS/SSU/Any|vsearch|OTU||Sequence similarity|blast|CHECK|
-|`JAMP`|https://github.com/VascoElbrecht/JAMP/|No|R|Any|vsearch|OTU|CHECK1|CHECK2|CHECK3|CHECK4|
-|`LotuS2`|https://github.com/hildebra/lotus2/|No(CHECK)|Perl/R|16S/18S/23S/28S/ITS|DADA2/uparse/unoise3/cd-hit/vsearch|ASV/OTU|CHECK1|Sequence similarity/Sequence composition|User defined|CHECK|
+|`gDAT`|https://github.com/ut-planteco/gDAT/|No|Python/HTML/Other|ITS/SSU/Any|vsearch|OTU||Sequence similarity|blast|NA|
+|`JAMP`|https://github.com/VascoElbrecht/JAMP/|No|R|Any|vsearch|OTU|NA|sequence similarity|usearch_global|NA|
+|`LotuS2`|https://github.com/hildebra/lotus2/|Yes (18S)|Perl/R|16S/18S/23S/28S/ITS|DADA2/uparse/unoise3/cd-hit/vsearch|ASV/OTU|LULU/UNCROSS2/ITSX|Sequence similarity/Sequence composition|Blast/Lambda/usearch/vsearch/rdp/sintax||
 |`MetaBarFlow`|https://github.com/evaegelyng/MetaBarFlow/|Yes|R/Python/Shell|Any|DADA2|ASV||Sequence similarity/Sequence composition|blast/custom|LCA|
 |`MetaWorks`|https://github.com/terrimporter/MetaWorks/|Yes| C++/Python/shell| COI/rbcL/ITS/SSU rRNA/12S SSU mtDNA|vsearch|ASV/OTU||Sequence composition|rdp|NA|
 |`MICCA`|https://github.com/compmetagen/micca/|No | Python|16S rRNA/ITS/18S/28S|other|OTU||Sequence composition/Sequence similarity |blast/rdp||
