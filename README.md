@@ -120,7 +120,6 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 | `mothur`| https://mothur.org                            | No     | C++/R    | 16S/18S/ITS          | pre.cluster + chimera tools     | OTU                          |                              | Wang classifier                          | k-mer / distance  | LCA/Consensus |
 |`NextITS`|https://github.com/vmikk/NextITS/|No|Nextflow/R/Shell|ITS|vsearch|OTU||Sequence similarity|SH-matcher|mumu|
 |`nfcore/ampliseq`                | https://nf-co.re/ampliseq                     | Yes    | Nextflow | 16S/18S/ITS/COI      | DADA2/vsearch                   | OTU/ASV                      |                              | sequence composition/sequence similarity | rdp/sintax/blast  | None          |
-|`OBITools4`|https://github.com/metabarcoding/obitools4/|No|Go/HTML/Shell/C/JavaScript|Any|obiclean|ASV/OTU||Sequence similarity|obitag|LCA|
 |`PacMan`|https://github.com/iobis/PacMAN-pipeline/|Yes|Python/R|Any|DADA2|ASV||Sequence composition|rdp|LCA|
 |`PEMA`|https://github.com/hariszaf/pema/||||||||||
 |`PipeCraft2`|https://github.com/pipecraft2/pipecraft/|Yes|||||||||
