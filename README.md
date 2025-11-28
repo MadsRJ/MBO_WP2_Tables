@@ -115,11 +115,11 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`MICCA`|https://github.com/compmetagen/micca/|No | Python|16S rRNA/ITS/18S/28S|other|OTU||Sequence composition/Sequence similarity |blast/rdp||
 |`MiFish`|https://mitofish.aori.u-tokyo.ac.jp/mifish/|Yes|Python|12S Mifish|other|OTU||Sequence similarity|blast|NA|
 |`OceanOmics-amplicon-nf`|https://github.com/MinderooFoundation/OceanOmics-amplicon-nf|Yes|Nextflow/Python/Groovy/HTML|Any|DADA2|ASV||Sequence similarity|blast|LCA|
-|`MJOLNIR`|https://github.com/uit-metabarcoding/MJOLNIR/||||||||||
+| `MJOLNIR`|https://github.com/uit-metabarcoding/MJOLNIR/ | No| R| COI| vsearch/Swarm| OTU|                              | sequence similarity| ecotag| LCA|
 |`MLI`||Yes|||||||||
-|`mothur`|https://github.com/mothur/mothur/||||||||||
+| `mothur`| https://mothur.org                            | No     | C++/R    | 16S/18S/ITS          | pre.cluster + chimera tools     | OTU                          |                              | Wang classifier                          | k-mer / distance  | LCA/Consensus |
 |`NextITS`|https://github.com/vmikk/NextITS/|No|Nextflow/R/Shell|ITS|vsearch|OTU||Sequence similarity|SH-matcher|mumu|
-|`nfcore/ampliseq`|https://nf-co.re/ampliseq/2.9.0/|Yes|||||||||
+|`nfcore/ampliseq`                | https://nf-co.re/ampliseq                     | Yes    | Nextflow | 16S/18S/ITS/COI      | DADA2/vsearch                   | OTU/ASV                      |                              | sequence composition/sequence similarity | rdp/sintax/blast  | None          |
 |`OBITools4`|https://github.com/metabarcoding/obitools4/|No|Go/HTML/Shell/C/JavaScript|Any|obiclean|ASV/OTU||Sequence similarity|obitag|LCA|
 |`PacMan`|https://github.com/iobis/PacMAN-pipeline/|Yes|Python/R|Any|DADA2|ASV||Sequence composition|rdp|LCA|
 |`PEMA`|https://github.com/hariszaf/pema/||||||||||
@@ -129,13 +129,12 @@ Three tables generated as part of MBO WP2's work on identifying primers, referen
 |`QIIME 2`|https://qiime2.org/ & https://github.com/qiime2/qiime2|Yes(CHECK)|||||||||
 |`rainbowbridge`||Yes|||||||||
 |`SCATA`|https://scata.mykopat.slu.se/ & https://github.com/mikdur/scata||||||||||
-|`Seed2`|https://www.biomed.cas.cz/mbu/lbwrf/seed/|Yes|||||||||
-|`Slim`|https://trtcrd.github.io/SLIM/||||||||||
-|`Tourmaline`|https://github.com/aomlomics/tourmaline/|Yes|||||||||
-|`UNOISE3`||Yes|||||||||
-|`USEARCH`|https://cryptick-lab.github.io/NGS-Analysis/_site/usearch-v11.html||||||||||
-|`VSEARCH`|https://github.com/torognes/vsearch/||||||||||
-|`VTAM`|https://www.sciencedirect.com/science/article/pii/S200103702300034X/ & https://vtam.readthedocs.io/en/stable/content/overview.html||||||||||
+|`Seed2`                          | https://www.biomed.cas.cz/mbu/lbwrf/seed/     | Yes     | Pascal   | 16S/ITS              | expected error filtering        | OTU                          |                              | sequence similarity                      | blast             | None          |
+|`Slim`                           | https://github.com/yoann-dufresne/SLIM        | No     | Python   | 16S                  | DADA2-like denoising            | OTU/ASV                      | LULU                         | sequence similarity                      | vsearch/IDTAXA    | None          |
+|`Tourmaline`                     | https://github.com/aomlomics/tourmaline       | Yes    | Nextflow | 16S/18S/ITS/COI      | DADA2 / Deblur                  | ASV                          |                              | sequence composition/sequence similarity | rdp/blast/vsearch | None          |
+|`USEARCH`                        | https://www.drive5.com/usearch/               | No     | C++      | 16S/ITS              | UNOISE3/UPARSE                  | OTU/ASV                      |                              | sequence composition                     | SINTAX            | None          |
+|`VSEARCH`                        | https://github.com/torognes/vsearch           | Yes    | C++      | 16S/ITS              | dereplication + chimera+cluster | OTU                          |                              | sequence composition                     | SINTAX            | None          |
+|`VTAM`                           | https://github.com/aitgon/vtam                | No     | Python   | COI/16S              | replicates + filters            | ASV                          | replicate-validated variants | sequence similarity                      | blast             | None          |
 
 ## Acknowledgements
 This repository was created under the framework of the EU-project [MARCO-BOLO](https://marcobolo-project.eu/). The MARCO-BOLO project is funded by the European Union under the Horizon Europe Programme, Grant Agreement No. 101082021 (MARCO-BOLO). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency (REA). Neither the European Union nor the granting authority can be held responsible for them. UK participants in MARCO-BOLO are supported by the UKRI’s Horizon Europe Guarantee under the Grant No. 10068180 (MS); No. 10063994 (MBA); No. 10048178 (NOC).
